@@ -2,18 +2,25 @@ import random
 import numpy as np
 
 from noise.spelling import inject_spelling_noise
+from noise.obfuscation import inject_obfuscation
 from retrieval.index import build_faiss_index
 from embeddings.cohere_embed import embed_queries
 
+# -------------------------
+# Config
+# -------------------------
 NUM_DOCS = 100
-NOISE_PROB = 0.12
+NOISE_LEVELS = [0.0, 0.05, 0.1, 0.15, 0.2]
 TOP_K = 5
 SEED = 42
 
 random.seed(SEED)
 np.random.seed(SEED)
 
-#dummy set ill replace with wikipedia
+# -------------------------
+# Dummy dataset
+# (replace later with Wikipedia)
+# -------------------------
 def build_dataset():
     docs = []
     for i in range(NUM_DOCS):
@@ -27,51 +34,89 @@ def build_dataset():
         })
     return docs
 
+# -------------------------
+# Noise pipeline
+# -------------------------
+def apply_noise(text, spelling_p=0.1, obfuscation_p=0.1):
+    text = inject_spelling_noise(text, prob=spelling_p)
+    text = inject_obfuscation(text, prob=obfuscation_p)
+    return text
+
+# -------------------------
+# Evaluation
+# -------------------------
 def evaluate():
     docs = build_dataset()
-
     clean_texts = [d["clean_text"] for d in docs]
 
+    # -------------------------------------------------
+    # Build FAISS index on CLEAN documents
+    # -------------------------------------------------
     print("Building FAISS index...")
     index = build_faiss_index(clean_texts)
 
-    noisy_queries = [
-        inject_spelling_noise(d["clean_text"], prob=NOISE_PROB)
-        for d in docs
-    ]
+    results = []
 
-    #batched embedding cuz i hit the rate limit
-    print("Embedding queries in batch...")
-    query_embeddings = embed_queries(noisy_queries)
+    # -------------------------------------------------
+    # Noise sweep
+    # -------------------------------------------------
+    for noise in NOISE_LEVELS:
+        print(f"\nEvaluating noise level: {noise}")
 
-    query_embeddings = np.array(query_embeddings).astype("float32")
-    query_embeddings /= np.linalg.norm(
-        query_embeddings, axis=1, keepdims=True
-    )
+        noisy_queries = [
+            apply_noise(
+                d["clean_text"],
+                spelling_p=noise,
+                obfuscation_p=noise
+            )
+            for d in docs
+        ]
 
-    recall_at_1 = 0
-    recall_at_5 = 0
+        print("Embedding queries in batch...")
+        query_embeddings = embed_queries(noisy_queries)
+        query_embeddings = np.array(query_embeddings).astype("float32")
+        query_embeddings /= np.linalg.norm(
+            query_embeddings, axis=1, keepdims=True
+        )
 
-    for i, doc in enumerate(docs):
-        q = query_embeddings[i:i + 1]  # shape (1, dim)
+        recall_at_1 = 0
+        recall_at_5 = 0
 
-        scores, ids = index.search(q, TOP_K)
-        retrieved_ids = ids[0]
+        for i, doc in enumerate(docs):
+            q = query_embeddings[i:i + 1]
+            scores, ids = index.search(q, TOP_K)
+            retrieved = ids[0]
 
-        true_id = doc["doc_id"]
+            if doc["doc_id"] == retrieved[0]:
+                recall_at_1 += 1
+            if doc["doc_id"] in retrieved:
+                recall_at_5 += 1
 
-        if true_id == retrieved_ids[0]:
-            recall_at_1 += 1
-        if true_id in retrieved_ids:
-            recall_at_5 += 1
+        n = len(docs)
+        r1 = recall_at_1 / n
+        r5 = recall_at_5 / n
 
-    n = len(docs)
+        results.append({
+            "noise": noise,
+            "recall@1": r1,
+            "recall@5": r5
+        })
 
-    print("\n=== Retrieval Results ===")
-    print(f"Documents: {n}")
-    print(f"Noise probability: {NOISE_PROB}")
-    print(f"Recall@1: {recall_at_1 / n:.3f}")
-    print(f"Recall@5: {recall_at_5 / n:.3f}")
+        print(f"Recall@1: {r1:.3f} | Recall@5: {r5:.3f}")
 
+    # -------------------------------------------------
+    # Final summary
+    # -------------------------------------------------
+    print("\n=== Summary ===")
+    for r in results:
+        print(
+            f"Noise={r['noise']:.2f} | "
+            f"R@1={r['recall@1']:.3f} | "
+            f"R@5={r['recall@5']:.3f}"
+        )
+
+# -------------------------
+# Main
+# -------------------------
 if __name__ == "__main__":
     evaluate()
