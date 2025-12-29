@@ -3,6 +3,7 @@ import numpy as np
 
 from noise.spelling import inject_spelling_noise
 from noise.obfuscation import inject_obfuscation
+from noise.chinese import inject_chinese_noise
 
 from retrieval.index import build_faiss_index
 from retrieval.baseline_index import build_baseline_faiss_index
@@ -13,7 +14,7 @@ from embeddings.baseline_embed import embed_texts
 # -------------------------
 # Config
 # -------------------------
-NUM_DOCS = 100
+NUM_DOCS = 40
 NOISE_LEVELS = [0.0, 0.05, 0.1, 0.15, 0.2]
 TOP_K = 5
 SEED = 42
@@ -25,24 +26,35 @@ np.random.seed(SEED)
 # Dummy dataset
 # -------------------------
 def build_dataset():
-    return [
-        {
-            "doc_id": i,
+    docs = []
+    for i in range(NUM_DOCS):
+        docs.append({
+            "doc_id": len(docs),
             "language": "en",
-            "clean_text": (
-                f"This is a sample document number {i}. "
-                f"It contains information about topic {i}."
-            )
-        }
-        for i in range(NUM_DOCS)
-    ]
+            "clean_text": f"This document discusses topic {i} in English."
+        })
+        docs.append({
+            "doc_id": len(docs),
+            "language": "fr",
+            "clean_text": f"Ce document traite du sujet {i} en français."
+        })
+        docs.append({
+            "doc_id": len(docs),
+            "language": "zh",
+            "clean_text": f"这篇文档讨论了主题{i}。"
+        })
+    return docs
+
 
 # -------------------------
 # Noise pipeline
 # -------------------------
-def apply_noise(text, spelling_p=0.1, obfuscation_p=0.1):
-    text = inject_spelling_noise(text, prob=spelling_p)
-    text = inject_obfuscation(text, prob=obfuscation_p)
+def apply_noise(text, language, noise_p):
+    if language in ["en", "fr"]:
+        text = inject_spelling_noise(text, prob=noise_p)
+        text = inject_obfuscation(text, prob=noise_p)
+    elif language == "zh":
+        text = inject_chinese_noise(text, prob=noise_p)
     return text
 
 # -------------------------
@@ -66,7 +78,7 @@ def evaluate():
         print(f"\nNoise level: {noise}")
 
         noisy_queries = [
-            apply_noise(d["clean_text"], noise, noise)
+            apply_noise(d["clean_text"], d["language"], noise)
             for d in docs
         ]
 
