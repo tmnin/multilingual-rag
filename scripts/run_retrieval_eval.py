@@ -3,8 +3,12 @@ import numpy as np
 
 from noise.spelling import inject_spelling_noise
 from noise.obfuscation import inject_obfuscation
+
 from retrieval.index import build_faiss_index
+from retrieval.baseline_index import build_baseline_faiss_index
+
 from embeddings.cohere_embed import embed_queries
+from embeddings.baseline_embed import embed_texts
 
 # -------------------------
 # Config
@@ -19,20 +23,19 @@ np.random.seed(SEED)
 
 # -------------------------
 # Dummy dataset
-# (replace later with Wikipedia)
 # -------------------------
 def build_dataset():
-    docs = []
-    for i in range(NUM_DOCS):
-        docs.append({
+    return [
+        {
             "doc_id": i,
             "language": "en",
             "clean_text": (
                 f"This is a sample document number {i}. "
                 f"It contains information about topic {i}."
             )
-        })
-    return docs
+        }
+        for i in range(NUM_DOCS)
+    ]
 
 # -------------------------
 # Noise pipeline
@@ -49,70 +52,73 @@ def evaluate():
     docs = build_dataset()
     clean_texts = [d["clean_text"] for d in docs]
 
-    # -------------------------------------------------
-    # Build FAISS index on CLEAN documents
-    # -------------------------------------------------
-    print("Building FAISS index...")
-    index = build_faiss_index(clean_texts)
+    print("Building Cohere FAISS index...")
+    cohere_index = build_faiss_index(clean_texts)
+
+    print("Building baseline FAISS index...")
+    baseline_index = build_baseline_faiss_index(clean_texts)
+
+    print("\n=== Running noise sweep ===")
 
     results = []
 
-    # -------------------------------------------------
-    # Noise sweep
-    # -------------------------------------------------
     for noise in NOISE_LEVELS:
-        print(f"\nEvaluating noise level: {noise}")
+        print(f"\nNoise level: {noise}")
 
         noisy_queries = [
-            apply_noise(
-                d["clean_text"],
-                spelling_p=noise,
-                obfuscation_p=noise
-            )
+            apply_noise(d["clean_text"], noise, noise)
             for d in docs
         ]
 
-        print("Embedding queries in batch...")
-        query_embeddings = embed_queries(noisy_queries)
-        query_embeddings = np.array(query_embeddings).astype("float32")
-        query_embeddings /= np.linalg.norm(
-            query_embeddings, axis=1, keepdims=True
-        )
+        # ---- Cohere embeddings (batched) ----
+        cohere_q = embed_queries(noisy_queries)
+        cohere_q = np.array(cohere_q).astype("float32")
+        cohere_q /= np.linalg.norm(cohere_q, axis=1, keepdims=True)
 
-        recall_at_1 = 0
-        recall_at_5 = 0
+        # ---- Baseline embeddings ----
+        baseline_q = embed_texts(noisy_queries)
+
+        r1_c, r5_c = 0, 0
+        r1_b, r5_b = 0, 0
 
         for i, doc in enumerate(docs):
-            q = query_embeddings[i:i + 1]
-            scores, ids = index.search(q, TOP_K)
-            retrieved = ids[0]
+            true_id = doc["doc_id"]
 
-            if doc["doc_id"] == retrieved[0]:
-                recall_at_1 += 1
-            if doc["doc_id"] in retrieved:
-                recall_at_5 += 1
+            # Cohere retrieval
+            _, ids_c = cohere_index.search(cohere_q[i:i+1], TOP_K)
+            if true_id == ids_c[0][0]:
+                r1_c += 1
+            if true_id in ids_c[0]:
+                r5_c += 1
+
+            # Baseline retrieval
+            _, ids_b = baseline_index.search(baseline_q[i:i+1], TOP_K)
+            if true_id == ids_b[0][0]:
+                r1_b += 1
+            if true_id in ids_b[0]:
+                r5_b += 1
 
         n = len(docs)
-        r1 = recall_at_1 / n
-        r5 = recall_at_5 / n
 
         results.append({
             "noise": noise,
-            "recall@1": r1,
-            "recall@5": r5
+            "cohere_r1": r1_c / n,
+            "cohere_r5": r5_c / n,
+            "baseline_r1": r1_b / n,
+            "baseline_r5": r5_b / n,
         })
 
-        print(f"Recall@1: {r1:.3f} | Recall@5: {r5:.3f}")
+        print(
+            f"Cohere   R@1={r1_c/n:.3f} | R@5={r5_c/n:.3f}   ||   "
+            f"Baseline R@1={r1_b/n:.3f} | R@5={r5_b/n:.3f}"
+        )
 
-    # -------------------------------------------------
-    # Final summary
-    # -------------------------------------------------
-    print("\n=== Summary ===")
+    print("\n=== Final Summary ===")
     for r in results:
         print(
             f"Noise={r['noise']:.2f} | "
-            f"R@1={r['recall@1']:.3f} | "
-            f"R@5={r['recall@5']:.3f}"
+            f"Cohere R@1={r['cohere_r1']:.3f}, R@5={r['cohere_r5']:.3f} || "
+            f"Baseline R@1={r['baseline_r1']:.3f}, R@5={r['baseline_r5']:.3f}"
         )
 
 # -------------------------
