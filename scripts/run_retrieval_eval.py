@@ -1,9 +1,9 @@
 import random
 import numpy as np
 
-from noise.spelling import inject_spelling_noise
-from noise.obfuscation import inject_obfuscation
-from noise.chinese import inject_chinese_noise
+from noise.spelling import apply_spelling_noise
+from noise.obfuscation import apply_obfuscation_noise
+from noise.chinese import apply_chinese_noise
 
 from retrieval.index import build_faiss_index
 from retrieval.baseline_index import build_baseline_faiss_index
@@ -51,10 +51,10 @@ def build_dataset():
 # -------------------------
 def apply_noise(text, language, noise_p):
     if language in ["en", "fr"]:
-        text = inject_spelling_noise(text, prob=noise_p)
-        text = inject_obfuscation(text, prob=noise_p)
+        text = apply_spelling_noise(text, noise_p)
+        text = apply_obfuscation_noise(text, noise_p)
     elif language == "zh":
-        text = inject_chinese_noise(text, prob=noise_p)
+        text = apply_chinese_noise(text, noise_p)
     return text
 
 # -------------------------

@@ -1,0 +1,3402 @@
+[
+  {
+    "doc_id": "zh_0002",
+    "language": "zh",
+    "document": "会议纪要—北湖实验室（广州）：雨云项目（地质学）于2011年开始，参考编号9DY2W44K。团队报告得分53/100，可用性为100%。",
+    "questions": [
+      {
+        "qid": "zh_0002_q1",
+        "question": "北湖实验室 是在哪一年开始 雨云 的？",
+        "answer": "2011"
+      },
+      {
+        "qid": "zh_0002_q2",
+        "question": "雨云 在 北湖实验室 对应的城市是哪里？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0035",
+    "language": "zh",
+    "document": "会议纪要—枫叶系统公司（上海）：雨云项目（机器人学）于2006年开始，参考编号ZC6P5GRV。团队报告得分19/100，成本为$0.05/1k。",
+    "questions": [
+      {
+        "qid": "zh_0035_q1",
+        "question": "枫叶系统公司 的 雨云 项目启动年份是什么？",
+        "answer": "2006"
+      },
+      {
+        "qid": "zh_0035_q2",
+        "question": "枫叶系统公司 的 雨云 项目在哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0016",
+    "language": "zh",
+    "document": "枫叶系统公司位于深圳。其天文学团队在2010年启动雨云项目，编号5M2FUREF。最近一次评估得分为49/100。",
+    "questions": [
+      {
+        "qid": "zh_0016_q1",
+        "question": "枫叶系统公司 的 雨云 项目启动年份是什么？",
+        "answer": "2010"
+      },
+      {
+        "qid": "zh_0016_q2",
+        "question": "雨云 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0022",
+    "language": "zh",
+    "document": "风筝事件复盘：枫叶系统公司（杭州）确认项目启动年份为2016，工单RW2T3ZHN。复盘后得分90/100，准确率=91%。",
+    "questions": [
+      {
+        "qid": "zh_0022_q1",
+        "question": "枫叶系统公司 是在哪一年开始 风筝 的？",
+        "answer": "2016"
+      },
+      {
+        "qid": "zh_0022_q2",
+        "question": "风筝 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0040",
+    "language": "zh",
+    "document": "明朗研究院位于成都。其机器人学团队在2008年启动星芒项目，编号J9XDCG7B。最近一次评估得分为30/100。",
+    "questions": [
+      {
+        "qid": "zh_0040_q1",
+        "question": "明朗研究院 的 星芒 项目启动年份是什么？",
+        "answer": "2008"
+      },
+      {
+        "qid": "zh_0040_q2",
+        "question": "明朗研究院 的 星芒 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0048",
+    "language": "fr",
+    "document": "En 1998, Institut Brightwell à Bordeaux a lancé le système Astre pour la cryptographie. L'identifiant interne est G5JSZ3ZC. Rapport: précision = 94% et score 66/100.",
+    "questions": [
+      {
+        "qid": "fr_0048_q1",
+        "question": "En quelle année le projet Astre chez Institut Brightwell a-t-il commencé ?",
+        "answer": "1998"
+      },
+      {
+        "qid": "fr_0048_q2",
+        "question": "Quelle ville est associée au projet Astre de Institut Brightwell ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0038",
+    "language": "zh",
+    "document": "2024年，枫叶系统公司在深圳推出了风筝系统，研究方向为机器人学。内部编号是R39KT426。最新报告显示吞吐量=339 req/s，综合得分24/100。",
+    "questions": [
+      {
+        "qid": "zh_0038_q1",
+        "question": "枫叶系统公司 的 风筝 项目启动年份是什么？",
+        "answer": "2024"
+      },
+      {
+        "qid": "zh_0038_q2",
+        "question": "风筝 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0020",
+    "language": "en",
+    "document": "In 2004, Maple Systems in Edmonton released the Kite system for astronomy. The internal ticket is RGY4KRLM. The benchmark reports latency = 191ms and score 67/100.",
+    "questions": [
+      {
+        "qid": "en_0020_q1",
+        "question": "In what year did Maple Systems begin Kite?",
+        "answer": "2004"
+      },
+      {
+        "qid": "en_0020_q2",
+        "question": "Which city is associated with Maple Systems's Kite project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0017",
+    "language": "fr",
+    "document": "En 2000, Systèmes Érable à Paris a lancé le système Cerf-volant pour la cryptographie. L'identifiant interne est V76CDZUE. Rapport: précision = 92% et score 97/100.",
+    "questions": [
+      {
+        "qid": "fr_0017_q1",
+        "question": "En quelle année le projet Cerf-volant chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2000"
+      },
+      {
+        "qid": "fr_0017_q2",
+        "question": "Quelle ville est associée au projet Cerf-volant de Systèmes Érable ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0061",
+    "language": "fr",
+    "document": "Analyse Redwood est basé à Toulouse. Son équipe de cryptographie a démarré le projet Nimbus en 2024. Référence 5WF3GMJ8. Score le plus récent : 56 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0061_q1",
+        "question": "En quelle année Analyse Redwood a-t-il démarré Nimbus ?",
+        "answer": "2024"
+      },
+      {
+        "qid": "fr_0061_q2",
+        "question": "Dans quelle ville Analyse Redwood est-il situé pour le projet Nimbus ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0001",
+    "language": "fr",
+    "document": "Produit : Cerf-volant. Propriétaire : Systèmes Érable (Paris). Domaine : cryptographie. Année de début : 2002. ID : SMHBJAYR. Métrique clé : précision (69%). Score : 90/100.",
+    "questions": [
+      {
+        "qid": "fr_0001_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Cerf-volant ?",
+        "answer": "2002"
+      },
+      {
+        "qid": "fr_0001_q2",
+        "question": "Dans quelle ville se trouve l'équipe Cerf-volant chez Systèmes Érable ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0055",
+    "language": "en",
+    "document": "Maple Systems operates out of Toronto. Their geology team started the Nimbus project in 2024. It is tracked as 9K68YX27. The most recent evaluation score is 56 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0055_q1",
+        "question": "When did the Nimbus project at Maple Systems start?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0055_q2",
+        "question": "In which city is the Nimbus team at Maple Systems based?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0051",
+    "language": "fr",
+    "document": "Notes de réunion — Robotique Cinder, Nantes : le projet Genévrier (thème : géologie) a commencé en 2017. Référence VX9V8BZX. Score 29/100 ; débit = 412 req/s.",
+    "questions": [
+      {
+        "qid": "fr_0051_q1",
+        "question": "En quelle année le projet Genévrier chez Robotique Cinder a-t-il commencé ?",
+        "answer": "2017"
+      },
+      {
+        "qid": "fr_0051_q2",
+        "question": "Dans quelle ville Robotique Cinder est-il situé pour le projet Genévrier ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0008",
+    "language": "zh",
+    "document": "2021年，明朗研究院在杭州推出了星芒系统，研究方向为机器人学。内部编号是97LYLJ9M。最新报告显示准确率=91%，综合得分84/100。",
+    "questions": [
+      {
+        "qid": "zh_0008_q1",
+        "question": "星芒 在 明朗研究院 是哪一年启动的？",
+        "answer": "2021"
+      },
+      {
+        "qid": "zh_0008_q2",
+        "question": "明朗研究院 的 星芒 团队位于哪个城市？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0057",
+    "language": "zh",
+    "document": "赫利俄斯事件复盘：北湖实验室（成都）确认项目启动年份为2005，工单4Z7FGJ3E。复盘后得分90/100，延迟=30ms。",
+    "questions": [
+      {
+        "qid": "zh_0057_q1",
+        "question": "北湖实验室 是在哪一年开始 赫利俄斯 的？",
+        "answer": "2005"
+      },
+      {
+        "qid": "zh_0057_q2",
+        "question": "北湖实验室 的 赫利俄斯 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0003",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Edmonton: The Saffron effort (topic: biology) began in 2024. Reference CW3TEPWP. Team reported score 98/100; latency measured at 125ms.",
+    "questions": [
+      {
+        "qid": "en_0003_q1",
+        "question": "What is the start year for Saffron at Northlake Lab?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0003_q2",
+        "question": "Which city is associated with Northlake Lab's Saffron project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0041",
+    "language": "zh",
+    "document": "北湖实验室位于北京。其地质学团队在2020年启动赫利俄斯项目，编号JVLTFZSF。最近一次评估得分为62/100。",
+    "questions": [
+      {
+        "qid": "zh_0041_q1",
+        "question": "北湖实验室 是在哪一年开始 赫利俄斯 的？",
+        "answer": "2020"
+      },
+      {
+        "qid": "zh_0041_q2",
+        "question": "北湖实验室 的 赫利俄斯 项目在哪个城市？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0026",
+    "language": "fr",
+    "document": "Institut Brightwell est basé à Strasbourg. Son équipe de médecine a démarré le projet Hélios en 2005. Référence 2FZQBWGX. Score le plus récent : 33 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0026_q1",
+        "question": "En quelle année Institut Brightwell a-t-il démarré Hélios ?",
+        "answer": "2005"
+      },
+      {
+        "qid": "fr_0026_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Hélios ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0036",
+    "language": "fr",
+    "document": "Produit : Hélios. Propriétaire : Analyse Redwood (Nantes). Domaine : économie. Année de début : 2016. ID : CK6ZZ6EJ. Métrique clé : précision (84%). Score : 82/100.",
+    "questions": [
+      {
+        "qid": "fr_0036_q1",
+        "question": "Quelle est l'année de début de Hélios chez Analyse Redwood ?",
+        "answer": "2016"
+      },
+      {
+        "qid": "fr_0036_q2",
+        "question": "Dans quelle ville Analyse Redwood est-il situé pour le projet Hélios ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0009",
+    "language": "zh",
+    "document": "会议纪要—北湖实验室（上海）：赫利俄斯项目（地质学）于2022年开始，参考编号A4JQEKAP。团队报告得分79/100，可用性为95%。",
+    "questions": [
+      {
+        "qid": "zh_0009_q1",
+        "question": "北湖实验室 的 赫利俄斯 项目启动年份是什么？",
+        "answer": "2022"
+      },
+      {
+        "qid": "zh_0009_q2",
+        "question": "北湖实验室 的 赫利俄斯 团队位于哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0025",
+    "language": "zh",
+    "document": "赫利俄斯事件复盘：北湖实验室（北京）确认项目启动年份为2019，工单3X5GAGSQ。复盘后得分80/100，成本=$0.20/1k。",
+    "questions": [
+      {
+        "qid": "zh_0025_q1",
+        "question": "赫利俄斯 在 北湖实验室 是哪一年启动的？",
+        "answer": "2019"
+      },
+      {
+        "qid": "zh_0025_q2",
+        "question": "赫利俄斯 在 北湖实验室 对应的城市是哪里？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0020",
+    "language": "zh",
+    "document": "产品：渡鸦。机构：北湖实验室（成都）。领域：天文学。启动年份：2013。编号：EZSR9N7G。关键指标：召回率（79%）。得分：32/100。",
+    "questions": [
+      {
+        "qid": "zh_0020_q1",
+        "question": "北湖实验室 是在哪一年开始 渡鸦 的？",
+        "answer": "2013"
+      },
+      {
+        "qid": "zh_0020_q2",
+        "question": "北湖实验室 的 渡鸦 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0018",
+    "language": "en",
+    "document": "Product: Nimbus. Owner: Brightwell Institute (Calgary). Domain: cryptography. Start year: 2004. ID: S9SDF5TC. Key metric: uptime (97%). Score: 15/100.",
+    "questions": [
+      {
+        "qid": "en_0018_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2004"
+      },
+      {
+        "qid": "en_0018_q2",
+        "question": "Which city is associated with Brightwell Institute's Nimbus project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0063",
+    "language": "en",
+    "document": "In 2017, Cinder Robotics in Quebec City released the Juniper system for biology. The internal ticket is YQNSJGCV. The benchmark reports accuracy = 74% and score 71/100.",
+    "questions": [
+      {
+        "qid": "en_0063_q1",
+        "question": "When did the Juniper project at Cinder Robotics start?",
+        "answer": "2017"
+      },
+      {
+        "qid": "en_0063_q2",
+        "question": "Where is Cinder Robotics located for the Juniper project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0022",
+    "language": "fr",
+    "document": "Institut Brightwell est basé à Toulouse. Son équipe de économie a démarré le projet Corbeau en 2002. Référence EUGCXJ2K. Score le plus récent : 35 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0022_q1",
+        "question": "En quelle année le projet Corbeau chez Institut Brightwell a-t-il commencé ?",
+        "answer": "2002"
+      },
+      {
+        "qid": "fr_0022_q2",
+        "question": "Quelle ville est associée au projet Corbeau de Institut Brightwell ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0041",
+    "language": "fr",
+    "document": "Laboratoire Northlake est basé à Bordeaux. Son équipe de linguistique a démarré le projet Cerf-volant en 2009. Référence JMJ5DHKV. Score le plus récent : 36 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0041_q1",
+        "question": "Quelle est l'année de début de Cerf-volant chez Laboratoire Northlake ?",
+        "answer": "2009"
+      },
+      {
+        "qid": "fr_0041_q2",
+        "question": "Quelle ville est associée au projet Cerf-volant de Laboratoire Northlake ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0052",
+    "language": "zh",
+    "document": "产品：渡鸦。机构：北湖实验室（杭州）。领域：天文学。启动年份：2022。编号：GHQACARC。关键指标：吞吐量（271 req/s）。得分：75/100。",
+    "questions": [
+      {
+        "qid": "zh_0052_q1",
+        "question": "北湖实验室 的 渡鸦 项目启动年份是什么？",
+        "answer": "2022"
+      },
+      {
+        "qid": "zh_0052_q2",
+        "question": "北湖实验室 的 渡鸦 团队位于哪个城市？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0051",
+    "language": "zh",
+    "document": "会议纪要—枫叶系统公司（上海）：雨云项目（机器人学）于2023年开始，参考编号5TESE97Z。团队报告得分22/100，延迟为179ms。",
+    "questions": [
+      {
+        "qid": "zh_0051_q1",
+        "question": "雨云 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0051_q2",
+        "question": "枫叶系统公司 的 雨云 团队位于哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0030",
+    "language": "en",
+    "document": "Incident recap for Aster: Maple Systems (Edmonton) confirmed the project start year as 2002. Case KQ2KPE44. Post-incident score: 57/100. Reported cost: $0.05/1k.",
+    "questions": [
+      {
+        "qid": "en_0030_q1",
+        "question": "What is the start year for Aster at Maple Systems?",
+        "answer": "2002"
+      },
+      {
+        "qid": "en_0030_q2",
+        "question": "Where is Maple Systems located for the Aster project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0065",
+    "language": "en",
+    "document": "Product: Helios. Owner: Northlake Lab (Vancouver). Domain: linguistics. Start year: 2002. ID: Q3ZF3ASH. Key metric: recall (64%). Score: 73/100.",
+    "questions": [
+      {
+        "qid": "en_0065_q1",
+        "question": "When did the Helios project at Northlake Lab start?",
+        "answer": "2002"
+      },
+      {
+        "qid": "en_0065_q2",
+        "question": "Which city is associated with Northlake Lab's Helios project?",
+        "answer": "Vancouver"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0053",
+    "language": "fr",
+    "document": "Notes de réunion — Institut Brightwell, Bordeaux : le projet Cerf-volant (thème : médecine) a commencé en 2002. Référence 4P48DJPW. Score 99/100 ; précision = 86%.",
+    "questions": [
+      {
+        "qid": "fr_0053_q1",
+        "question": "En quelle année le projet Cerf-volant chez Institut Brightwell a-t-il commencé ?",
+        "answer": "2002"
+      },
+      {
+        "qid": "fr_0053_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Cerf-volant ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0034",
+    "language": "zh",
+    "document": "雨云事件复盘：北湖实验室（西安）确认项目启动年份为2016，工单BQUCTQUL。复盘后得分73/100，吞吐量=94 req/s。",
+    "questions": [
+      {
+        "qid": "zh_0034_q1",
+        "question": "雨云 在 北湖实验室 是哪一年启动的？",
+        "answer": "2016"
+      },
+      {
+        "qid": "zh_0034_q2",
+        "question": "北湖实验室 的 雨云 项目在哪个城市？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0023",
+    "language": "zh",
+    "document": "产品：风筝。机构：明朗研究院（北京）。领域：经济学。启动年份：2020。编号：P6UE49JV。关键指标：可用性（98%）。得分：45/100。",
+    "questions": [
+      {
+        "qid": "zh_0023_q1",
+        "question": "风筝 在 明朗研究院 是哪一年启动的？",
+        "answer": "2020"
+      },
+      {
+        "qid": "zh_0023_q2",
+        "question": "明朗研究院 的 风筝 团队位于哪个城市？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0005",
+    "language": "fr",
+    "document": "En 2011, Institut Brightwell à Nantes a lancé le système Cerf-volant pour la médecine. L'identifiant interne est GW5WSZK8. Rapport: rappel = 85% et score 23/100.",
+    "questions": [
+      {
+        "qid": "fr_0005_q1",
+        "question": "En quelle année Institut Brightwell a-t-il démarré Cerf-volant ?",
+        "answer": "2011"
+      },
+      {
+        "qid": "fr_0005_q2",
+        "question": "Dans quelle ville se trouve l'équipe Cerf-volant chez Institut Brightwell ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0006",
+    "language": "zh",
+    "document": "2009年，枫叶系统公司在杭州推出了风筝系统，研究方向为机器人学。内部编号是97G8WPZW。最新报告显示准确率=76%，综合得分67/100。",
+    "questions": [
+      {
+        "qid": "zh_0006_q1",
+        "question": "风筝 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2009"
+      },
+      {
+        "qid": "zh_0006_q2",
+        "question": "枫叶系统公司 的 风筝 团队位于哪个城市？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0004",
+    "language": "fr",
+    "document": "Notes de réunion — Analyse Redwood, Marseille : le projet Hélios (thème : économie) a commencé en 2018. Référence W2U75GHP. Score 70/100 ; précision = 99%.",
+    "questions": [
+      {
+        "qid": "fr_0004_q1",
+        "question": "En quelle année Analyse Redwood a-t-il démarré Hélios ?",
+        "answer": "2018"
+      },
+      {
+        "qid": "fr_0004_q2",
+        "question": "Dans quelle ville Analyse Redwood est-il situé pour le projet Hélios ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0059",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Vancouver. Their economics team started the Nimbus project in 2020. It is tracked as VBCWDUYZ. The most recent evaluation score is 70 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0059_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2020"
+      },
+      {
+        "qid": "en_0059_q2",
+        "question": "Which city is associated with Brightwell Institute's Nimbus project?",
+        "answer": "Vancouver"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0004",
+    "language": "en",
+    "document": "In 2002, Maple Systems in Quebec City released the Kite system for astronomy. The internal ticket is RS53ZQJ9. The benchmark reports throughput = 281 req/s and score 26/100.",
+    "questions": [
+      {
+        "qid": "en_0004_q1",
+        "question": "In what year did Maple Systems begin Kite?",
+        "answer": "2002"
+      },
+      {
+        "qid": "en_0004_q2",
+        "question": "In which city is the Kite team at Maple Systems based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0066",
+    "language": "fr",
+    "document": "Produit : Safran. Propriétaire : Robotique Cinder (Paris). Domaine : biologie. Année de début : 2019. ID : VB3SAPEC. Métrique clé : coût ($0.12/1k). Score : 69/100.",
+    "questions": [
+      {
+        "qid": "fr_0066_q1",
+        "question": "En quelle année le projet Safran chez Robotique Cinder a-t-il commencé ?",
+        "answer": "2019"
+      },
+      {
+        "qid": "fr_0066_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Robotique Cinder ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0044",
+    "language": "en",
+    "document": "In 2003, Northlake Lab in Quebec City released the Helios system for geology. The internal ticket is DS8HE39E. The benchmark reports recall = 81% and score 88/100.",
+    "questions": [
+      {
+        "qid": "en_0044_q1",
+        "question": "In what year did Northlake Lab begin Helios?",
+        "answer": "2003"
+      },
+      {
+        "qid": "en_0044_q2",
+        "question": "In which city is the Helios team at Northlake Lab based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0048",
+    "language": "en",
+    "document": "Incident recap for Helios: Cinder Robotics (Ottawa) confirmed the project start year as 1999. Case LVU6H7V3. Post-incident score: 49/100. Reported throughput: 83 req/s.",
+    "questions": [
+      {
+        "qid": "en_0048_q1",
+        "question": "When did the Helios project at Cinder Robotics start?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0048_q2",
+        "question": "Where is Cinder Robotics located for the Helios project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0047",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Nimbus : Systèmes Érable (Nice) confirme l'année de début 2000. Dossier 37RPYDDU. Score : 78/100. rappel : 61%.",
+    "questions": [
+      {
+        "qid": "fr_0047_q1",
+        "question": "En quelle année le projet Nimbus chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2000"
+      },
+      {
+        "qid": "fr_0047_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Systèmes Érable ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0042",
+    "language": "en",
+    "document": "Cinder Robotics operates out of Calgary. Their linguistics team started the Aster project in 2021. It is tracked as MNP8TUGN. The most recent evaluation score is 52 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0042_q1",
+        "question": "What is the start year for Aster at Cinder Robotics?",
+        "answer": "2021"
+      },
+      {
+        "qid": "en_0042_q2",
+        "question": "In which city is the Aster team at Cinder Robotics based?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0028",
+    "language": "en",
+    "document": "Incident recap for Helios: Northlake Lab (Calgary) confirmed the project start year as 2012. Case DRH7J7W6. Post-incident score: 93/100. Reported throughput: 540 req/s.",
+    "questions": [
+      {
+        "qid": "en_0028_q1",
+        "question": "What is the start year for Helios at Northlake Lab?",
+        "answer": "2012"
+      },
+      {
+        "qid": "en_0028_q2",
+        "question": "Which city is associated with Northlake Lab's Helios project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0002",
+    "language": "fr",
+    "document": "Robotique Cinder est basé à Nice. Son équipe de biologie a démarré le projet Safran en 2021. Référence 4HE86ZG6. Score le plus récent : 79 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0002_q1",
+        "question": "En quelle année le projet Safran chez Robotique Cinder a-t-il commencé ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0002_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Robotique Cinder ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0034",
+    "language": "fr",
+    "document": "Produit : Safran. Propriétaire : Robotique Cinder (Marseille). Domaine : biologie. Année de début : 2008. ID : GFWUV65L. Métrique clé : coût ($0.10/1k). Score : 71/100.",
+    "questions": [
+      {
+        "qid": "fr_0034_q1",
+        "question": "Quelle est l'année de début de Safran chez Robotique Cinder ?",
+        "answer": "2008"
+      },
+      {
+        "qid": "fr_0034_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Robotique Cinder ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0040",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Calgary. Their linguistics team started the Kite project in 2021. It is tracked as 49R896BF. The most recent evaluation score is 52 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0040_q1",
+        "question": "What is the start year for Kite at Brightwell Institute?",
+        "answer": "2021"
+      },
+      {
+        "qid": "en_0040_q2",
+        "question": "Which city is associated with Brightwell Institute's Kite project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0039",
+    "language": "en",
+    "document": "Product: Nimbus. Owner: Maple Systems (Winnipeg). Domain: geology. Start year: 2013. ID: WM9PYSXT. Key metric: accuracy (61%). Score: 91/100.",
+    "questions": [
+      {
+        "qid": "en_0039_q1",
+        "question": "When did the Nimbus project at Maple Systems start?",
+        "answer": "2013"
+      },
+      {
+        "qid": "en_0039_q2",
+        "question": "In which city is the Nimbus team at Maple Systems based?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0044",
+    "language": "fr",
+    "document": "Notes de réunion — Systèmes Érable, Nice : le projet Hélios (thème : astronomie) a commencé en 2023. Référence 3V7EDL64. Score 76/100 ; rappel = 75%.",
+    "questions": [
+      {
+        "qid": "fr_0044_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Hélios ?",
+        "answer": "2023"
+      },
+      {
+        "qid": "fr_0044_q2",
+        "question": "Dans quelle ville Systèmes Érable est-il situé pour le projet Hélios ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0019",
+    "language": "zh",
+    "document": "2005年，枫叶系统公司在上海推出了雨云系统，研究方向为机器人学。内部编号是L2LJTVT9。最新报告显示可用性=99%，综合得分33/100。",
+    "questions": [
+      {
+        "qid": "zh_0019_q1",
+        "question": "枫叶系统公司 是在哪一年开始 雨云 的？",
+        "answer": "2005"
+      },
+      {
+        "qid": "zh_0019_q2",
+        "question": "枫叶系统公司 的 雨云 项目在哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0036",
+    "language": "en",
+    "document": "Incident recap for Kite: Maple Systems (Ottawa) confirmed the project start year as 2010. Case 3NERGVHC. Post-incident score: 59/100. Reported cost: $0.20/1k.",
+    "questions": [
+      {
+        "qid": "en_0036_q1",
+        "question": "What is the start year for Kite at Maple Systems?",
+        "answer": "2010"
+      },
+      {
+        "qid": "en_0036_q2",
+        "question": "Which city is associated with Maple Systems's Kite project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0066",
+    "language": "en",
+    "document": "Meeting notes — Brightwell Institute, Ottawa: The Nimbus effort (topic: cryptography) began in 2024. Reference ZGQ8BWQE. Team reported score 96/100; cost measured at $0.12/1k.",
+    "questions": [
+      {
+        "qid": "en_0066_q1",
+        "question": "When did the Nimbus project at Brightwell Institute start?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0066_q2",
+        "question": "Where is Brightwell Institute located for the Nimbus project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0047",
+    "language": "en",
+    "document": "Cinder Robotics operates out of Toronto. Their biology team started the Juniper project in 2020. It is tracked as U7EQSN5H. The most recent evaluation score is 84 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0047_q1",
+        "question": "When did the Juniper project at Cinder Robotics start?",
+        "answer": "2020"
+      },
+      {
+        "qid": "en_0047_q2",
+        "question": "In which city is the Juniper team at Cinder Robotics based?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0056",
+    "language": "en",
+    "document": "Incident recap for Kite: Brightwell Institute (Winnipeg) confirmed the project start year as 1999. Case W822K9CJ. Post-incident score: 79/100. Reported throughput: 430 req/s.",
+    "questions": [
+      {
+        "qid": "en_0056_q1",
+        "question": "What is the start year for Kite at Brightwell Institute?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0056_q2",
+        "question": "In which city is the Kite team at Brightwell Institute based?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0025",
+    "language": "en",
+    "document": "Incident recap for Raven: Northlake Lab (Winnipeg) confirmed the project start year as 2019. Case MV3AVUP5. Post-incident score: 89/100. Reported uptime: 98%.",
+    "questions": [
+      {
+        "qid": "en_0025_q1",
+        "question": "When did the Raven project at Northlake Lab start?",
+        "answer": "2019"
+      },
+      {
+        "qid": "en_0025_q2",
+        "question": "Where is Northlake Lab located for the Raven project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0011",
+    "language": "en",
+    "document": "Meeting notes — Brightwell Institute, Winnipeg: The Nimbus effort (topic: economics) began in 2019. Reference GD3XGRNN. Team reported score 83/100; recall measured at 63%.",
+    "questions": [
+      {
+        "qid": "en_0011_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2019"
+      },
+      {
+        "qid": "en_0011_q2",
+        "question": "Where is Brightwell Institute located for the Nimbus project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0010",
+    "language": "fr",
+    "document": "Institut Brightwell est basé à Lyon. Son équipe de médecine a démarré le projet Hélios en 2003. Référence DFT65964. Score le plus récent : 49 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0010_q1",
+        "question": "En quelle année le projet Hélios chez Institut Brightwell a-t-il commencé ?",
+        "answer": "2003"
+      },
+      {
+        "qid": "fr_0010_q2",
+        "question": "Dans quelle ville se trouve l'équipe Hélios chez Institut Brightwell ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0008",
+    "language": "fr",
+    "document": "Systèmes Érable est basé à Paris. Son équipe de économie a démarré le projet Safran en 2024. Référence TBMTVXYA. Score le plus récent : 38 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0008_q1",
+        "question": "En quelle année le projet Safran chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2024"
+      },
+      {
+        "qid": "fr_0008_q2",
+        "question": "Quelle ville est associée au projet Safran de Systèmes Érable ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0014",
+    "language": "fr",
+    "document": "Produit : Nimbus. Propriétaire : Systèmes Érable (Nantes). Domaine : biologie. Année de début : 2025. ID : GR53F3VX. Métrique clé : latence (231ms). Score : 43/100.",
+    "questions": [
+      {
+        "qid": "fr_0014_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Nimbus ?",
+        "answer": "2025"
+      },
+      {
+        "qid": "fr_0014_q2",
+        "question": "Dans quelle ville se trouve l'équipe Nimbus chez Systèmes Érable ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0042",
+    "language": "zh",
+    "document": "渡鸦事件复盘：枫叶系统公司（成都）确认项目启动年份为2022，工单Q5FGAP8E。复盘后得分31/100，可用性=100%。",
+    "questions": [
+      {
+        "qid": "zh_0042_q1",
+        "question": "枫叶系统公司 是在哪一年开始 渡鸦 的？",
+        "answer": "2022"
+      },
+      {
+        "qid": "zh_0042_q2",
+        "question": "渡鸦 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0067",
+    "language": "en",
+    "document": "Product: Saffron. Owner: Northlake Lab (Winnipeg). Domain: biology. Start year: 1999. ID: CV9HGRJ2. Key metric: latency (79ms). Score: 73/100.",
+    "questions": [
+      {
+        "qid": "en_0067_q1",
+        "question": "When did the Saffron project at Northlake Lab start?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0067_q2",
+        "question": "Which city is associated with Northlake Lab's Saffron project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0029",
+    "language": "zh",
+    "document": "产品：杜松。机构：灰烬机器人团队（广州）。领域：天文学。启动年份：2011。编号：3BN652AP。关键指标：可用性（100%）。得分：41/100。",
+    "questions": [
+      {
+        "qid": "zh_0029_q1",
+        "question": "杜松 在 灰烬机器人团队 是哪一年启动的？",
+        "answer": "2011"
+      },
+      {
+        "qid": "zh_0029_q2",
+        "question": "灰烬机器人团队 的 杜松 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0038",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Corbeau : Institut Brightwell (Toulouse) confirme l'année de début 2025. Dossier E6M6FWYE. Score : 85/100. latence : 77ms.",
+    "questions": [
+      {
+        "qid": "fr_0038_q1",
+        "question": "Quelle est l'année de début de Corbeau chez Institut Brightwell ?",
+        "answer": "2025"
+      },
+      {
+        "qid": "fr_0038_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Corbeau ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0049",
+    "language": "fr",
+    "document": "Produit : Cerf-volant. Propriétaire : Systèmes Érable (Toulouse). Domaine : cryptographie. Année de début : 2007. ID : E26THJG3. Métrique clé : précision (95%). Score : 62/100.",
+    "questions": [
+      {
+        "qid": "fr_0049_q1",
+        "question": "En quelle année le projet Cerf-volant chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0049_q2",
+        "question": "Dans quelle ville Systèmes Érable est-il situé pour le projet Cerf-volant ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0010",
+    "language": "zh",
+    "document": "1998年，枫叶系统公司在西安推出了渡鸦系统，研究方向为天文学。内部编号是A4ABTUB5。最新报告显示可用性=98%，综合得分37/100。",
+    "questions": [
+      {
+        "qid": "zh_0010_q1",
+        "question": "枫叶系统公司 是在哪一年开始 渡鸦 的？",
+        "answer": "1998"
+      },
+      {
+        "qid": "zh_0010_q2",
+        "question": "渡鸦 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0028",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Hélios : Systèmes Érable (Lyon) confirme l'année de début 2007. Dossier HDR47EH9. Score : 91/100. précision : 75%.",
+    "questions": [
+      {
+        "qid": "fr_0028_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Hélios ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0028_q2",
+        "question": "Quelle ville est associée au projet Hélios de Systèmes Érable ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0021",
+    "language": "en",
+    "document": "Product: Helios. Owner: Northlake Lab (Edmonton). Domain: robotics. Start year: 2006. ID: LG2C8QN7. Key metric: recall (75%). Score: 59/100.",
+    "questions": [
+      {
+        "qid": "en_0021_q1",
+        "question": "In what year did Northlake Lab begin Helios?",
+        "answer": "2006"
+      },
+      {
+        "qid": "en_0021_q2",
+        "question": "In which city is the Helios team at Northlake Lab based?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0043",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Laboratoire Northlake (Nantes) confirme l'année de début 2024. Dossier BFCSP4B9. Score : 95/100. coût : $0.05/1k.",
+    "questions": [
+      {
+        "qid": "fr_0043_q1",
+        "question": "Quelle est l'année de début de Safran chez Laboratoire Northlake ?",
+        "answer": "2024"
+      },
+      {
+        "qid": "fr_0043_q2",
+        "question": "Quelle ville est associée au projet Safran de Laboratoire Northlake ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0062",
+    "language": "en",
+    "document": "In 2005, Maple Systems in Winnipeg released the Aster system for astronomy. The internal ticket is 2YUUB3TA. The benchmark reports recall = 66% and score 87/100.",
+    "questions": [
+      {
+        "qid": "en_0062_q1",
+        "question": "When did the Aster project at Maple Systems start?",
+        "answer": "2005"
+      },
+      {
+        "qid": "en_0062_q2",
+        "question": "Which city is associated with Maple Systems's Aster project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0013",
+    "language": "en",
+    "document": "Product: Aster. Owner: Northlake Lab (Winnipeg). Domain: economics. Start year: 2010. ID: A2S7U59K. Key metric: latency (92ms). Score: 39/100.",
+    "questions": [
+      {
+        "qid": "en_0013_q1",
+        "question": "In what year did Northlake Lab begin Aster?",
+        "answer": "2010"
+      },
+      {
+        "qid": "en_0013_q2",
+        "question": "In which city is the Aster team at Northlake Lab based?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0054",
+    "language": "fr",
+    "document": "Produit : Corbeau. Propriétaire : Institut Brightwell (Nantes). Domaine : économie. Année de début : 2015. ID : XYS8NRTV. Métrique clé : débit (480 req/s). Score : 43/100.",
+    "questions": [
+      {
+        "qid": "fr_0054_q1",
+        "question": "Quelle est l'année de début de Corbeau chez Institut Brightwell ?",
+        "answer": "2015"
+      },
+      {
+        "qid": "fr_0054_q2",
+        "question": "Quelle ville est associée au projet Corbeau de Institut Brightwell ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0003",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Genévrier : Robotique Cinder (Nice) confirme l'année de début 1999. Dossier 835G96EF. Score : 56/100. rappel : 61%.",
+    "questions": [
+      {
+        "qid": "fr_0003_q1",
+        "question": "En quelle année Robotique Cinder a-t-il démarré Genévrier ?",
+        "answer": "1999"
+      },
+      {
+        "qid": "fr_0003_q2",
+        "question": "Dans quelle ville se trouve l'équipe Genévrier chez Robotique Cinder ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0027",
+    "language": "zh",
+    "document": "产品：雨云。机构：明朗研究院（杭州）。领域：生物学。启动年份：2012。编号：P8Y8G66W。关键指标：准确率（81%）。得分：23/100。",
+    "questions": [
+      {
+        "qid": "zh_0027_q1",
+        "question": "明朗研究院 是在哪一年开始 雨云 的？",
+        "answer": "2012"
+      },
+      {
+        "qid": "zh_0027_q2",
+        "question": "雨云 在 明朗研究院 对应的城市是哪里？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0043",
+    "language": "zh",
+    "document": "2020年，明朗研究院在西安推出了雨云系统，研究方向为生物学。内部编号是XH5J8EQ2。最新报告显示延迟=12ms，综合得分26/100。",
+    "questions": [
+      {
+        "qid": "zh_0043_q1",
+        "question": "明朗研究院 是在哪一年开始 雨云 的？",
+        "answer": "2020"
+      },
+      {
+        "qid": "zh_0043_q2",
+        "question": "明朗研究院 的 雨云 项目在哪个城市？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0039",
+    "language": "fr",
+    "document": "Produit : Safran. Propriétaire : Laboratoire Northlake (Marseille). Domaine : économie. Année de début : 2020. ID : MZQHNJR9. Métrique clé : disponibilité (100%). Score : 18/100.",
+    "questions": [
+      {
+        "qid": "fr_0039_q1",
+        "question": "En quelle année le projet Safran chez Laboratoire Northlake a-t-il commencé ?",
+        "answer": "2020"
+      },
+      {
+        "qid": "fr_0039_q2",
+        "question": "Quelle ville est associée au projet Safran de Laboratoire Northlake ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0053",
+    "language": "en",
+    "document": "Product: Helios. Owner: Northlake Lab (Calgary). Domain: robotics. Start year: 2007. ID: A4FQH7HK. Key metric: uptime (96%). Score: 78/100.",
+    "questions": [
+      {
+        "qid": "en_0053_q1",
+        "question": "When did the Helios project at Northlake Lab start?",
+        "answer": "2007"
+      },
+      {
+        "qid": "en_0053_q2",
+        "question": "Which city is associated with Northlake Lab's Helios project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0031",
+    "language": "fr",
+    "document": "Produit : Nimbus. Propriétaire : Systèmes Érable (Nantes). Domaine : robotique. Année de début : 2009. ID : XM78MJE7. Métrique clé : débit (55 req/s). Score : 19/100.",
+    "questions": [
+      {
+        "qid": "fr_0031_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Nimbus ?",
+        "answer": "2009"
+      },
+      {
+        "qid": "fr_0031_q2",
+        "question": "Dans quelle ville se trouve l'équipe Nimbus chez Systèmes Érable ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0054",
+    "language": "en",
+    "document": "Product: Juniper. Owner: Brightwell Institute (Ottawa). Domain: astronomy. Start year: 2013. ID: R7K2NJET. Key metric: recall (90%). Score: 68/100.",
+    "questions": [
+      {
+        "qid": "en_0054_q1",
+        "question": "When did the Juniper project at Brightwell Institute start?",
+        "answer": "2013"
+      },
+      {
+        "qid": "en_0054_q2",
+        "question": "Where is Brightwell Institute located for the Juniper project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0032",
+    "language": "zh",
+    "document": "枫叶系统公司位于广州。其天文学团队在2011年启动雨云项目，编号J25M9ML9。最近一次评估得分为51/100。",
+    "questions": [
+      {
+        "qid": "zh_0032_q1",
+        "question": "枫叶系统公司 是在哪一年开始 雨云 的？",
+        "answer": "2011"
+      },
+      {
+        "qid": "zh_0032_q2",
+        "question": "枫叶系统公司 的 雨云 项目在哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0050",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Quebec City. Their cryptography team started the Nimbus project in 2016. It is tracked as 59F8Y4XW. The most recent evaluation score is 28 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0050_q1",
+        "question": "What is the start year for Nimbus at Brightwell Institute?",
+        "answer": "2016"
+      },
+      {
+        "qid": "en_0050_q2",
+        "question": "Where is Brightwell Institute located for the Nimbus project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0007",
+    "language": "en",
+    "document": "Incident recap for Nimbus: Maple Systems (Edmonton) confirmed the project start year as 2001. Case ZVRDRFF9. Post-incident score: 23/100. Reported recall: 61%.",
+    "questions": [
+      {
+        "qid": "en_0007_q1",
+        "question": "In what year did Maple Systems begin Nimbus?",
+        "answer": "2001"
+      },
+      {
+        "qid": "en_0007_q2",
+        "question": "In which city is the Nimbus team at Maple Systems based?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0057",
+    "language": "fr",
+    "document": "En 2019, Laboratoire Northlake à Toulouse a lancé le système Cerf-volant pour la linguistique. L'identifiant interne est QQDG4X8G. Rapport: débit = 61 req/s et score 32/100.",
+    "questions": [
+      {
+        "qid": "fr_0057_q1",
+        "question": "En quelle année le projet Cerf-volant chez Laboratoire Northlake a-t-il commencé ?",
+        "answer": "2019"
+      },
+      {
+        "qid": "fr_0057_q2",
+        "question": "Dans quelle ville se trouve l'équipe Cerf-volant chez Laboratoire Northlake ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0040",
+    "language": "fr",
+    "document": "Produit : Safran. Propriétaire : Systèmes Érable (Nantes). Domaine : économie. Année de début : 2002. ID : FEV3844E. Métrique clé : rappel (95%). Score : 31/100.",
+    "questions": [
+      {
+        "qid": "fr_0040_q1",
+        "question": "En quelle année le projet Safran chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2002"
+      },
+      {
+        "qid": "fr_0040_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Systèmes Érable ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0033",
+    "language": "en",
+    "document": "Product: Helios. Owner: Northlake Lab (Toronto). Domain: linguistics. Start year: 2011. ID: J7MDS2WP. Key metric: latency (337ms). Score: 73/100.",
+    "questions": [
+      {
+        "qid": "en_0033_q1",
+        "question": "What is the start year for Helios at Northlake Lab?",
+        "answer": "2011"
+      },
+      {
+        "qid": "en_0033_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0061",
+    "language": "zh",
+    "document": "灰烬机器人团队位于成都。其天文学团队在2010年启动杜松项目，编号6RG7GJHA。最近一次评估得分为22/100。",
+    "questions": [
+      {
+        "qid": "zh_0061_q1",
+        "question": "灰烬机器人团队 是在哪一年开始 杜松 的？",
+        "answer": "2010"
+      },
+      {
+        "qid": "zh_0061_q2",
+        "question": "灰烬机器人团队 的 杜松 团队位于哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0009",
+    "language": "en",
+    "document": "In 2015, Northlake Lab in Edmonton released the Raven system for cryptography. The internal ticket is QQAEDQEC. The benchmark reports latency = 309ms and score 57/100.",
+    "questions": [
+      {
+        "qid": "en_0009_q1",
+        "question": "When did the Raven project at Northlake Lab start?",
+        "answer": "2015"
+      },
+      {
+        "qid": "en_0009_q2",
+        "question": "In which city is the Raven team at Northlake Lab based?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0032",
+    "language": "en",
+    "document": "Incident recap for Helios: Cinder Robotics (Quebec City) confirmed the project start year as 2011. Case 9B2X3L7J. Post-incident score: 94/100. Reported throughput: 289 req/s.",
+    "questions": [
+      {
+        "qid": "en_0032_q1",
+        "question": "In what year did Cinder Robotics begin Helios?",
+        "answer": "2011"
+      },
+      {
+        "qid": "en_0032_q2",
+        "question": "Where is Cinder Robotics located for the Helios project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0027",
+    "language": "en",
+    "document": "In 2013, Brightwell Institute in Toronto released the Nimbus system for economics. The internal ticket is E74N293R. The benchmark reports latency = 133ms and score 33/100.",
+    "questions": [
+      {
+        "qid": "en_0027_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2013"
+      },
+      {
+        "qid": "en_0027_q2",
+        "question": "Where is Brightwell Institute located for the Nimbus project?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0026",
+    "language": "zh",
+    "document": "2010年，枫叶系统公司在深圳推出了渡鸦系统，研究方向为天文学。内部编号是7KYB8GU4。最新报告显示召回率=83%，综合得分25/100。",
+    "questions": [
+      {
+        "qid": "zh_0026_q1",
+        "question": "渡鸦 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2010"
+      },
+      {
+        "qid": "zh_0026_q2",
+        "question": "枫叶系统公司 的 渡鸦 团队位于哪个城市？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0002",
+    "language": "en",
+    "document": "Incident recap for Nimbus: Brightwell Institute (Montreal) confirmed the project start year as 2004. Case TELRL72T. Post-incident score: 96/100. Reported accuracy: 82%.",
+    "questions": [
+      {
+        "qid": "en_0002_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2004"
+      },
+      {
+        "qid": "en_0002_q2",
+        "question": "Which city is associated with Brightwell Institute's Nimbus project?",
+        "answer": "Montreal"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0065",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Cerf-volant : Systèmes Érable (Marseille) confirme l'année de début 2025. Dossier 6HP9F6D7. Score : 31/100. débit : 345 req/s.",
+    "questions": [
+      {
+        "qid": "fr_0065_q1",
+        "question": "Quelle est l'année de début de Cerf-volant chez Systèmes Érable ?",
+        "answer": "2025"
+      },
+      {
+        "qid": "fr_0065_q2",
+        "question": "Dans quelle ville Systèmes Érable est-il situé pour le projet Cerf-volant ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0003",
+    "language": "zh",
+    "document": "枫叶系统公司位于西安。其机器人学团队在2007年启动雨云项目，编号K7D44J2R。最近一次评估得分为47/100。",
+    "questions": [
+      {
+        "qid": "zh_0003_q1",
+        "question": "枫叶系统公司 的 雨云 项目启动年份是什么？",
+        "answer": "2007"
+      },
+      {
+        "qid": "zh_0003_q2",
+        "question": "雨云 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0063",
+    "language": "fr",
+    "document": "Notes de réunion — Systèmes Érable, Strasbourg : le projet Nimbus (thème : robotique) a commencé en 2020. Référence VHUZQQJ8. Score 34/100 ; disponibilité = 99%.",
+    "questions": [
+      {
+        "qid": "fr_0063_q1",
+        "question": "En quelle année le projet Nimbus chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2020"
+      },
+      {
+        "qid": "fr_0063_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Systèmes Érable ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0019",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Genévrier : Robotique Cinder (Marseille) confirme l'année de début 2020. Dossier 66LZZU24. Score : 58/100. latence : 134ms.",
+    "questions": [
+      {
+        "qid": "fr_0019_q1",
+        "question": "En quelle année Robotique Cinder a-t-il démarré Genévrier ?",
+        "answer": "2020"
+      },
+      {
+        "qid": "fr_0019_q2",
+        "question": "Quelle ville est associée au projet Genévrier de Robotique Cinder ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0048",
+    "language": "zh",
+    "document": "产品：雨云。机构：枫叶系统公司（成都）。领域：天文学。启动年份：1999。编号：3U453FKT。关键指标：吞吐量（50 req/s）。得分：25/100。",
+    "questions": [
+      {
+        "qid": "zh_0048_q1",
+        "question": "枫叶系统公司 是在哪一年开始 雨云 的？",
+        "answer": "1999"
+      },
+      {
+        "qid": "zh_0048_q2",
+        "question": "雨云 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0012",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Montreal: The Helios effort (topic: geology) began in 2005. Reference E6GDAFRL. Team reported score 67/100; accuracy measured at 89%.",
+    "questions": [
+      {
+        "qid": "en_0012_q1",
+        "question": "What is the start year for Helios at Northlake Lab?",
+        "answer": "2005"
+      },
+      {
+        "qid": "en_0012_q2",
+        "question": "In which city is the Helios team at Northlake Lab based?",
+        "answer": "Montreal"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0052",
+    "language": "fr",
+    "document": "En 2006, Analyse Redwood à Paris a lancé le système Hélios pour la économie. L'identifiant interne est QD8L2KRC. Rapport: coût = $0.12/1k et score 88/100.",
+    "questions": [
+      {
+        "qid": "fr_0052_q1",
+        "question": "En quelle année Analyse Redwood a-t-il démarré Hélios ?",
+        "answer": "2006"
+      },
+      {
+        "qid": "fr_0052_q2",
+        "question": "Dans quelle ville se trouve l'équipe Hélios chez Analyse Redwood ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0022",
+    "language": "en",
+    "document": "Product: Juniper. Owner: Brightwell Institute (Toronto). Domain: astronomy. Start year: 2010. ID: XTETY3XB. Key metric: uptime (96%). Score: 29/100.",
+    "questions": [
+      {
+        "qid": "en_0022_q1",
+        "question": "In what year did Brightwell Institute begin Juniper?",
+        "answer": "2010"
+      },
+      {
+        "qid": "en_0022_q2",
+        "question": "Which city is associated with Brightwell Institute's Juniper project?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0046",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Nimbus : Systèmes Érable (Marseille) confirme l'année de début 2007. Dossier 24RLWWNL. Score : 78/100. latence : 33ms.",
+    "questions": [
+      {
+        "qid": "fr_0046_q1",
+        "question": "Quelle est l'année de début de Nimbus chez Systèmes Érable ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0046_q2",
+        "question": "Dans quelle ville Systèmes Érable est-il situé pour le projet Nimbus ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0064",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Astre : Institut Brightwell (Nantes) confirme l'année de début 2013. Dossier PRF6ZEHD. Score : 85/100. rappel : 95%.",
+    "questions": [
+      {
+        "qid": "fr_0064_q1",
+        "question": "En quelle année Institut Brightwell a-t-il démarré Astre ?",
+        "answer": "2013"
+      },
+      {
+        "qid": "fr_0064_q2",
+        "question": "Quelle ville est associée au projet Astre de Institut Brightwell ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0031",
+    "language": "en",
+    "document": "Incident recap for Juniper: Cinder Robotics (Toronto) confirmed the project start year as 2010. Case B28AYV24. Post-incident score: 83/100. Reported throughput: 440 req/s.",
+    "questions": [
+      {
+        "qid": "en_0031_q1",
+        "question": "When did the Juniper project at Cinder Robotics start?",
+        "answer": "2010"
+      },
+      {
+        "qid": "en_0031_q2",
+        "question": "In which city is the Juniper team at Cinder Robotics based?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0037",
+    "language": "zh",
+    "document": "红杉数据组位于成都。其地质学团队在2003年启动风筝项目，编号WUUTGJ4D。最近一次评估得分为50/100。",
+    "questions": [
+      {
+        "qid": "zh_0037_q1",
+        "question": "风筝 在 红杉数据组 是哪一年启动的？",
+        "answer": "2003"
+      },
+      {
+        "qid": "zh_0037_q2",
+        "question": "红杉数据组 的 风筝 团队位于哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0044",
+    "language": "zh",
+    "document": "北湖实验室位于杭州。其天文学团队在2010年启动杜松项目，编号JKEAL6YP。最近一次评估得分为95/100。",
+    "questions": [
+      {
+        "qid": "zh_0044_q1",
+        "question": "北湖实验室 的 杜松 项目启动年份是什么？",
+        "answer": "2010"
+      },
+      {
+        "qid": "zh_0044_q2",
+        "question": "杜松 在 北湖实验室 对应的城市是哪里？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0043",
+    "language": "en",
+    "document": "Incident recap for Nimbus: Brightwell Institute (Ottawa) confirmed the project start year as 2015. Case JTCDUJ9G. Post-incident score: 16/100. Reported latency: 370ms.",
+    "questions": [
+      {
+        "qid": "en_0043_q1",
+        "question": "What is the start year for Nimbus at Brightwell Institute?",
+        "answer": "2015"
+      },
+      {
+        "qid": "en_0043_q2",
+        "question": "Where is Brightwell Institute located for the Nimbus project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0050",
+    "language": "zh",
+    "document": "北湖实验室位于北京。其地质学团队在2001年启动雨云项目，编号AJAL9YSL。最近一次评估得分为62/100。",
+    "questions": [
+      {
+        "qid": "zh_0050_q1",
+        "question": "雨云 在 北湖实验室 是哪一年启动的？",
+        "answer": "2001"
+      },
+      {
+        "qid": "zh_0050_q2",
+        "question": "北湖实验室 的 雨云 项目在哪个城市？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0064",
+    "language": "en",
+    "document": "Product: Helios. Owner: Cinder Robotics (Montreal). Domain: linguistics. Start year: 2008. ID: 4MNJZTLS. Key metric: latency (159ms). Score: 76/100.",
+    "questions": [
+      {
+        "qid": "en_0064_q1",
+        "question": "When did the Helios project at Cinder Robotics start?",
+        "answer": "2008"
+      },
+      {
+        "qid": "en_0064_q2",
+        "question": "Where is Cinder Robotics located for the Helios project?",
+        "answer": "Montreal"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0014",
+    "language": "en",
+    "document": "Meeting notes — Maple Systems, Toronto: The Aster effort (topic: astronomy) began in 1999. Reference D8LDFMEE. Team reported score 45/100; uptime measured at 97%.",
+    "questions": [
+      {
+        "qid": "en_0014_q1",
+        "question": "In what year did Maple Systems begin Aster?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0014_q2",
+        "question": "Which city is associated with Maple Systems's Aster project?",
+        "answer": "Toronto"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0050",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Robotique Cinder (Marseille) confirme l'année de début 2010. Dossier CCCJX87K. Score : 92/100. débit : 531 req/s.",
+    "questions": [
+      {
+        "qid": "fr_0050_q1",
+        "question": "En quelle année Robotique Cinder a-t-il démarré Safran ?",
+        "answer": "2010"
+      },
+      {
+        "qid": "fr_0050_q2",
+        "question": "Dans quelle ville Robotique Cinder est-il situé pour le projet Safran ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0064",
+    "language": "zh",
+    "document": "枫叶系统公司位于广州。其天文学团队在2017年启动雨云项目，编号RU948DFT。最近一次评估得分为64/100。",
+    "questions": [
+      {
+        "qid": "zh_0064_q1",
+        "question": "枫叶系统公司 的 雨云 项目启动年份是什么？",
+        "answer": "2017"
+      },
+      {
+        "qid": "zh_0064_q2",
+        "question": "枫叶系统公司 的 雨云 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0015",
+    "language": "zh",
+    "document": "产品：风筝。机构：灰烬机器人团队（上海）。领域：机器人学。启动年份：2009。编号：DG5QEX3W。关键指标：成本（$0.20/1k）。得分：18/100。",
+    "questions": [
+      {
+        "qid": "zh_0015_q1",
+        "question": "灰烬机器人团队 的 风筝 项目启动年份是什么？",
+        "answer": "2009"
+      },
+      {
+        "qid": "zh_0015_q2",
+        "question": "灰烬机器人团队 的 风筝 项目在哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0062",
+    "language": "fr",
+    "document": "Notes de réunion — Systèmes Érable, Strasbourg : le projet Nimbus (thème : biologie) a commencé en 2022. Référence TXVASZRD. Score 30/100 ; débit = 467 req/s.",
+    "questions": [
+      {
+        "qid": "fr_0062_q1",
+        "question": "Quelle est l'année de début de Nimbus chez Systèmes Érable ?",
+        "answer": "2022"
+      },
+      {
+        "qid": "fr_0062_q2",
+        "question": "Dans quelle ville se trouve l'équipe Nimbus chez Systèmes Érable ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0037",
+    "language": "fr",
+    "document": "Produit : Cerf-volant. Propriétaire : Institut Brightwell (Nice). Domaine : médecine. Année de début : 1998. ID : M92HSS6P. Métrique clé : débit (126 req/s). Score : 93/100.",
+    "questions": [
+      {
+        "qid": "fr_0037_q1",
+        "question": "En quelle année le projet Cerf-volant chez Institut Brightwell a-t-il commencé ?",
+        "answer": "1998"
+      },
+      {
+        "qid": "fr_0037_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Cerf-volant ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0004",
+    "language": "zh",
+    "document": "北湖实验室位于上海。其天文学团队在2000年启动渡鸦项目，编号NDT2CENP。最近一次评估得分为76/100。",
+    "questions": [
+      {
+        "qid": "zh_0004_q1",
+        "question": "北湖实验室 的 渡鸦 项目启动年份是什么？",
+        "answer": "2000"
+      },
+      {
+        "qid": "zh_0004_q2",
+        "question": "北湖实验室 的 渡鸦 项目在哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0007",
+    "language": "zh",
+    "document": "风筝事件复盘：明朗研究院（广州）确认项目启动年份为2015，工单4UKNXQ2R。复盘后得分78/100，延迟=141ms。",
+    "questions": [
+      {
+        "qid": "zh_0007_q1",
+        "question": "风筝 在 明朗研究院 是哪一年启动的？",
+        "answer": "2015"
+      },
+      {
+        "qid": "zh_0007_q2",
+        "question": "风筝 在 明朗研究院 对应的城市是哪里？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0036",
+    "language": "zh",
+    "document": "渡鸦事件复盘：北湖实验室（上海）确认项目启动年份为2022，工单RPY5LJPP。复盘后得分22/100，召回率=67%。",
+    "questions": [
+      {
+        "qid": "zh_0036_q1",
+        "question": "北湖实验室 的 渡鸦 项目启动年份是什么？",
+        "answer": "2022"
+      },
+      {
+        "qid": "zh_0036_q2",
+        "question": "渡鸦 在 北湖实验室 对应的城市是哪里？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0005",
+    "language": "en",
+    "document": "Product: Helios. Owner: Northlake Lab (Montreal). Domain: robotics. Start year: 2017. ID: E227SAHT. Key metric: uptime (98%). Score: 97/100.",
+    "questions": [
+      {
+        "qid": "en_0005_q1",
+        "question": "In what year did Northlake Lab begin Helios?",
+        "answer": "2017"
+      },
+      {
+        "qid": "en_0005_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Montreal"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0006",
+    "language": "fr",
+    "document": "Produit : Corbeau. Propriétaire : Institut Brightwell (Strasbourg). Domaine : économie. Année de début : 2021. ID : ZJDXH4Y5. Métrique clé : latence (389ms). Score : 21/100.",
+    "questions": [
+      {
+        "qid": "fr_0006_q1",
+        "question": "En quelle année le projet Corbeau chez Institut Brightwell a-t-il commencé ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0006_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Corbeau ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0032",
+    "language": "fr",
+    "document": "Produit : Astre. Propriétaire : Institut Brightwell (Toulouse). Domaine : cryptographie. Année de début : 2007. ID : 38SCNUYD. Métrique clé : latence (169ms). Score : 98/100.",
+    "questions": [
+      {
+        "qid": "fr_0032_q1",
+        "question": "Quelle est l'année de début de Astre chez Institut Brightwell ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0032_q2",
+        "question": "Dans quelle ville se trouve l'équipe Astre chez Institut Brightwell ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0042",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Hélios : Institut Brightwell (Toulouse) confirme l'année de début 2007. Dossier FSNTJVFL. Score : 90/100. précision : 93%.",
+    "questions": [
+      {
+        "qid": "fr_0042_q1",
+        "question": "En quelle année Institut Brightwell a-t-il démarré Hélios ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0042_q2",
+        "question": "Dans quelle ville se trouve l'équipe Hélios chez Institut Brightwell ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0051",
+    "language": "en",
+    "document": "In 2024, Northlake Lab in Quebec City released the Saffron system for biology. The internal ticket is C7FWSWH3. The benchmark reports accuracy = 85% and score 80/100.",
+    "questions": [
+      {
+        "qid": "en_0051_q1",
+        "question": "When did the Saffron project at Northlake Lab start?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0051_q2",
+        "question": "Which city is associated with Northlake Lab's Saffron project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0007",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Laboratoire Northlake (Nantes) confirme l'année de début 2014. Dossier PK8QGYZH. Score : 50/100. latence : 303ms.",
+    "questions": [
+      {
+        "qid": "fr_0007_q1",
+        "question": "En quelle année Laboratoire Northlake a-t-il démarré Safran ?",
+        "answer": "2014"
+      },
+      {
+        "qid": "fr_0007_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Safran ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0023",
+    "language": "fr",
+    "document": "Notes de réunion — Laboratoire Northlake, Marseille : le projet Safran (thème : économie) a commencé en 1999. Référence 4ZR6U6QR. Score 54/100 ; disponibilité = 98%.",
+    "questions": [
+      {
+        "qid": "fr_0023_q1",
+        "question": "En quelle année Laboratoire Northlake a-t-il démarré Safran ?",
+        "answer": "1999"
+      },
+      {
+        "qid": "fr_0023_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Safran ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0055",
+    "language": "fr",
+    "document": "Laboratoire Northlake est basé à Toulouse. Son équipe de économie a démarré le projet Safran en 2013. Référence W8YTUH23. Score le plus récent : 59 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0055_q1",
+        "question": "Quelle est l'année de début de Safran chez Laboratoire Northlake ?",
+        "answer": "2013"
+      },
+      {
+        "qid": "fr_0055_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Laboratoire Northlake ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0028",
+    "language": "zh",
+    "document": "会议纪要—北湖实验室（上海）：杜松项目（天文学）于2008年开始，参考编号GLRMLX57。团队报告得分44/100，延迟为442ms。",
+    "questions": [
+      {
+        "qid": "zh_0028_q1",
+        "question": "杜松 在 北湖实验室 是哪一年启动的？",
+        "answer": "2008"
+      },
+      {
+        "qid": "zh_0028_q2",
+        "question": "北湖实验室 的 杜松 团队位于哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0013",
+    "language": "zh",
+    "document": "杜松事件复盘：灰烬机器人团队（杭州）确认项目启动年份为2014，工单CQP8TCET。复盘后得分84/100，成本=$0.05/1k。",
+    "questions": [
+      {
+        "qid": "zh_0013_q1",
+        "question": "杜松 在 灰烬机器人团队 是哪一年启动的？",
+        "answer": "2014"
+      },
+      {
+        "qid": "zh_0013_q2",
+        "question": "灰烬机器人团队 的 杜松 团队位于哪个城市？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0023",
+    "language": "en",
+    "document": "Meeting notes — Maple Systems, Ottawa: The Nimbus effort (topic: geology) began in 2017. Reference 5YW5H2NS. Team reported score 20/100; latency measured at 63ms.",
+    "questions": [
+      {
+        "qid": "en_0023_q1",
+        "question": "In what year did Maple Systems begin Nimbus?",
+        "answer": "2017"
+      },
+      {
+        "qid": "en_0023_q2",
+        "question": "Which city is associated with Maple Systems's Nimbus project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0017",
+    "language": "en",
+    "document": "Northlake Lab operates out of Ottawa. Their linguistics team started the Helios project in 2024. It is tracked as VAVGJSHG. The most recent evaluation score is 85 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0017_q1",
+        "question": "What is the start year for Helios at Northlake Lab?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0017_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0009",
+    "language": "fr",
+    "document": "Produit : Cerf-volant. Propriétaire : Laboratoire Northlake (Strasbourg). Domaine : linguistique. Année de début : 2021. ID : BFP247XL. Métrique clé : latence (80ms). Score : 62/100.",
+    "questions": [
+      {
+        "qid": "fr_0009_q1",
+        "question": "En quelle année le projet Cerf-volant chez Laboratoire Northlake a-t-il commencé ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0009_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Cerf-volant ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0012",
+    "language": "fr",
+    "document": "En 1998, Systèmes Érable à Nice a lancé le système Hélios pour la astronomie. L'identifiant interne est 95MJ2QYE. Rapport: précision = 67% et score 65/100.",
+    "questions": [
+      {
+        "qid": "fr_0012_q1",
+        "question": "Quelle est l'année de début de Hélios chez Systèmes Érable ?",
+        "answer": "1998"
+      },
+      {
+        "qid": "fr_0012_q2",
+        "question": "Dans quelle ville se trouve l'équipe Hélios chez Systèmes Érable ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0030",
+    "language": "fr",
+    "document": "En 1999, Systèmes Érable à Paris a lancé le système Nimbus pour la biologie. L'identifiant interne est 2ZSBYEYR. Rapport: rappel = 90% et score 99/100.",
+    "questions": [
+      {
+        "qid": "fr_0030_q1",
+        "question": "En quelle année le projet Nimbus chez Systèmes Érable a-t-il commencé ?",
+        "answer": "1999"
+      },
+      {
+        "qid": "fr_0030_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Systèmes Érable ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0067",
+    "language": "fr",
+    "document": "Notes de réunion — Robotique Cinder, Paris : le projet Genévrier (thème : géologie) a commencé en 1999. Référence U4MJ4Z26. Score 63/100 ; latence = 249ms.",
+    "questions": [
+      {
+        "qid": "fr_0067_q1",
+        "question": "En quelle année Robotique Cinder a-t-il démarré Genévrier ?",
+        "answer": "1999"
+      },
+      {
+        "qid": "fr_0067_q2",
+        "question": "Quelle ville est associée au projet Genévrier de Robotique Cinder ?",
+        "answer": "Paris"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0058",
+    "language": "en",
+    "document": "In 2010, Cinder Robotics in Edmonton released the Aster system for linguistics. The internal ticket is W9CERUQF. The benchmark reports uptime = 99% and score 70/100.",
+    "questions": [
+      {
+        "qid": "en_0058_q1",
+        "question": "When did the Aster project at Cinder Robotics start?",
+        "answer": "2010"
+      },
+      {
+        "qid": "en_0058_q2",
+        "question": "Which city is associated with Cinder Robotics's Aster project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0053",
+    "language": "zh",
+    "document": "产品：风筝。机构：红杉数据组（广州）。领域：地质学。启动年份：2023。编号：4QWR4WTE。关键指标：延迟（291ms）。得分：88/100。",
+    "questions": [
+      {
+        "qid": "zh_0053_q1",
+        "question": "红杉数据组 是在哪一年开始 风筝 的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0053_q2",
+        "question": "风筝 在 红杉数据组 对应的城市是哪里？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0039",
+    "language": "zh",
+    "document": "会议纪要—明朗研究院（成都）：风筝项目（经济学）于2012年开始，参考编号9WAF7YE3。团队报告得分42/100，可用性为97%。",
+    "questions": [
+      {
+        "qid": "zh_0039_q1",
+        "question": "明朗研究院 是在哪一年开始 风筝 的？",
+        "answer": "2012"
+      },
+      {
+        "qid": "zh_0039_q2",
+        "question": "明朗研究院 的 风筝 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0066",
+    "language": "zh",
+    "document": "北湖实验室位于深圳。其地质学团队在2022年启动雨云项目，编号TD8YQLGR。最近一次评估得分为99/100。",
+    "questions": [
+      {
+        "qid": "zh_0066_q1",
+        "question": "北湖实验室 的 雨云 项目启动年份是什么？",
+        "answer": "2022"
+      },
+      {
+        "qid": "zh_0066_q2",
+        "question": "雨云 在 北湖实验室 对应的城市是哪里？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0058",
+    "language": "fr",
+    "document": "Notes de réunion — Institut Brightwell, Strasbourg : le projet Hélios (thème : médecine) a commencé en 2013. Référence NUWUDFQC. Score 37/100 ; disponibilité = 98%.",
+    "questions": [
+      {
+        "qid": "fr_0058_q1",
+        "question": "En quelle année Institut Brightwell a-t-il démarré Hélios ?",
+        "answer": "2013"
+      },
+      {
+        "qid": "fr_0058_q2",
+        "question": "Dans quelle ville se trouve l'équipe Hélios chez Institut Brightwell ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0045",
+    "language": "fr",
+    "document": "Produit : Nimbus. Propriétaire : Analyse Redwood (Marseille). Domaine : cryptographie. Année de début : 2021. ID : Y3JZGWR7. Métrique clé : précision (80%). Score : 30/100.",
+    "questions": [
+      {
+        "qid": "fr_0045_q1",
+        "question": "Quelle est l'année de début de Nimbus chez Analyse Redwood ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0045_q2",
+        "question": "Dans quelle ville se trouve l'équipe Nimbus chez Analyse Redwood ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0041",
+    "language": "en",
+    "document": "Northlake Lab operates out of Calgary. Their cryptography team started the Raven project in 2009. It is tracked as 8Y5XY7TV. The most recent evaluation score is 47 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0041_q1",
+        "question": "In what year did Northlake Lab begin Raven?",
+        "answer": "2009"
+      },
+      {
+        "qid": "en_0041_q2",
+        "question": "Which city is associated with Northlake Lab's Raven project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0035",
+    "language": "en",
+    "document": "In 2013, Northlake Lab in Montreal released the Saffron system for biology. The internal ticket is HP7SZLHL. The benchmark reports throughput = 139 req/s and score 54/100.",
+    "questions": [
+      {
+        "qid": "en_0035_q1",
+        "question": "When did the Saffron project at Northlake Lab start?",
+        "answer": "2013"
+      },
+      {
+        "qid": "en_0035_q2",
+        "question": "In which city is the Saffron team at Northlake Lab based?",
+        "answer": "Montreal"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0033",
+    "language": "zh",
+    "document": "会议纪要—枫叶系统公司（西安）：雨云项目（经济学）于2025年开始，参考编号YA9JN294。团队报告得分77/100，成本为$0.05/1k。",
+    "questions": [
+      {
+        "qid": "zh_0033_q1",
+        "question": "雨云 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2025"
+      },
+      {
+        "qid": "zh_0033_q2",
+        "question": "枫叶系统公司 的 雨云 项目在哪个城市？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0011",
+    "language": "fr",
+    "document": "Laboratoire Northlake est basé à Nantes. Son équipe de robotique a démarré le projet Safran en 2007. Référence 9VCQ3DAP. Score le plus récent : 53 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0011_q1",
+        "question": "En quelle année Laboratoire Northlake a-t-il démarré Safran ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0011_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Safran ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0020",
+    "language": "fr",
+    "document": "Notes de réunion — Analyse Redwood, Nantes : le projet Hélios (thème : économie) a commencé en 2001. Référence 2USKXFKY. Score 54/100 ; latence = 176ms.",
+    "questions": [
+      {
+        "qid": "fr_0020_q1",
+        "question": "En quelle année Analyse Redwood a-t-il démarré Hélios ?",
+        "answer": "2001"
+      },
+      {
+        "qid": "fr_0020_q2",
+        "question": "Quelle ville est associée au projet Hélios de Analyse Redwood ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0026",
+    "language": "en",
+    "document": "Cinder Robotics operates out of Quebec City. Their linguistics team started the Aster project in 2019. It is tracked as P8LFUXFR. The most recent evaluation score is 54 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0026_q1",
+        "question": "In what year did Cinder Robotics begin Aster?",
+        "answer": "2019"
+      },
+      {
+        "qid": "en_0026_q2",
+        "question": "In which city is the Aster team at Cinder Robotics based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0035",
+    "language": "fr",
+    "document": "Robotique Cinder est basé à Nantes. Son équipe de géologie a démarré le projet Genévrier en 2006. Référence DE3ZLBK6. Score le plus récent : 19 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0035_q1",
+        "question": "En quelle année Robotique Cinder a-t-il démarré Genévrier ?",
+        "answer": "2006"
+      },
+      {
+        "qid": "fr_0035_q2",
+        "question": "Dans quelle ville se trouve l'équipe Genévrier chez Robotique Cinder ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0029",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Nimbus : Analyse Redwood (Toulouse) confirme l'année de début 2007. Dossier 5AYR4MFZ. Score : 23/100. disponibilité : 96%.",
+    "questions": [
+      {
+        "qid": "fr_0029_q1",
+        "question": "En quelle année le projet Nimbus chez Analyse Redwood a-t-il commencé ?",
+        "answer": "2007"
+      },
+      {
+        "qid": "fr_0029_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Analyse Redwood ?",
+        "answer": "Toulouse"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0019",
+    "language": "en",
+    "document": "Northlake Lab operates out of Ottawa. Their biology team started the Saffron project in 2015. It is tracked as 5AHEKCZK. The most recent evaluation score is 70 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0019_q1",
+        "question": "In what year did Northlake Lab begin Saffron?",
+        "answer": "2015"
+      },
+      {
+        "qid": "en_0019_q2",
+        "question": "Where is Northlake Lab located for the Saffron project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0027",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Laboratoire Northlake (Bordeaux) confirme l'année de début 2022. Dossier 86AFBSPK. Score : 85/100. disponibilité : 96%.",
+    "questions": [
+      {
+        "qid": "fr_0027_q1",
+        "question": "En quelle année le projet Safran chez Laboratoire Northlake a-t-il commencé ?",
+        "answer": "2022"
+      },
+      {
+        "qid": "fr_0027_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Safran ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0030",
+    "language": "zh",
+    "document": "会议纪要—明朗研究院（上海）：藏红花项目（天文学）于2009年开始，参考编号WN7HS9W2。团队报告得分93/100，成本为$0.08/1k。",
+    "questions": [
+      {
+        "qid": "zh_0030_q1",
+        "question": "藏红花 在 明朗研究院 是哪一年启动的？",
+        "answer": "2009"
+      },
+      {
+        "qid": "zh_0030_q2",
+        "question": "明朗研究院 的 藏红花 团队位于哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0029",
+    "language": "en",
+    "document": "Northlake Lab operates out of Quebec City. Their economics team started the Aster project in 2012. It is tracked as SRT9RT6E. The most recent evaluation score is 51 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0029_q1",
+        "question": "What is the start year for Aster at Northlake Lab?",
+        "answer": "2012"
+      },
+      {
+        "qid": "en_0029_q2",
+        "question": "Where is Northlake Lab located for the Aster project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0054",
+    "language": "zh",
+    "document": "会议纪要—枫叶系统公司（北京）：风筝项目（机器人学）于2023年开始，参考编号C3E7UVWF。团队报告得分85/100，吞吐量为238 req/s。",
+    "questions": [
+      {
+        "qid": "zh_0054_q1",
+        "question": "枫叶系统公司 是在哪一年开始 风筝 的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0054_q2",
+        "question": "枫叶系统公司 的 风筝 项目在哪个城市？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0017",
+    "language": "zh",
+    "document": "枫叶系统公司位于广州。其经济学团队在2008年启动雨云项目，编号ZGFAV6ZT。最近一次评估得分为28/100。",
+    "questions": [
+      {
+        "qid": "zh_0017_q1",
+        "question": "枫叶系统公司 是在哪一年开始 雨云 的？",
+        "answer": "2008"
+      },
+      {
+        "qid": "zh_0017_q2",
+        "question": "枫叶系统公司 的 雨云 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0038",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Ottawa. Their astronomy team started the Juniper project in 2022. It is tracked as 875TWRFT. The most recent evaluation score is 72 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0038_q1",
+        "question": "What is the start year for Juniper at Brightwell Institute?",
+        "answer": "2022"
+      },
+      {
+        "qid": "en_0038_q2",
+        "question": "Which city is associated with Brightwell Institute's Juniper project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0031",
+    "language": "zh",
+    "document": "灰烬机器人团队位于杭州。其机器人学团队在2017年启动风筝项目，编号MVFJWHRV。最近一次评估得分为29/100。",
+    "questions": [
+      {
+        "qid": "zh_0031_q1",
+        "question": "灰烬机器人团队 的 风筝 项目启动年份是什么？",
+        "answer": "2017"
+      },
+      {
+        "qid": "zh_0031_q2",
+        "question": "风筝 在 灰烬机器人团队 对应的城市是哪里？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0016",
+    "language": "en",
+    "document": "In 2022, Cinder Robotics in Ottawa released the Helios system for linguistics. The internal ticket is EA7GEPSJ. The benchmark reports recall = 80% and score 59/100.",
+    "questions": [
+      {
+        "qid": "en_0016_q1",
+        "question": "In what year did Cinder Robotics begin Helios?",
+        "answer": "2022"
+      },
+      {
+        "qid": "en_0016_q2",
+        "question": "Where is Cinder Robotics located for the Helios project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0016",
+    "language": "fr",
+    "document": "Produit : Astre. Propriétaire : Institut Brightwell (Lyon). Domaine : cryptographie. Année de début : 2012. ID : 6WWK6E86. Métrique clé : débit (515 req/s). Score : 95/100.",
+    "questions": [
+      {
+        "qid": "fr_0016_q1",
+        "question": "Quelle est l'année de début de Astre chez Institut Brightwell ?",
+        "answer": "2012"
+      },
+      {
+        "qid": "fr_0016_q2",
+        "question": "Quelle ville est associée au projet Astre de Institut Brightwell ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0058",
+    "language": "zh",
+    "document": "枫叶系统公司位于广州。其天文学团队在2006年启动渡鸦项目，编号W3WW6TQE。最近一次评估得分为40/100。",
+    "questions": [
+      {
+        "qid": "zh_0058_q1",
+        "question": "渡鸦 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2006"
+      },
+      {
+        "qid": "zh_0058_q2",
+        "question": "枫叶系统公司 的 渡鸦 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0021",
+    "language": "fr",
+    "document": "Institut Brightwell est basé à Lyon. Son équipe de médecine a démarré le projet Cerf-volant en 2010. Référence XJF5ZBZV. Score le plus récent : 38 sur 100.",
+    "questions": [
+      {
+        "qid": "fr_0021_q1",
+        "question": "Quelle est l'année de début de Cerf-volant chez Institut Brightwell ?",
+        "answer": "2010"
+      },
+      {
+        "qid": "fr_0021_q2",
+        "question": "Dans quelle ville Institut Brightwell est-il situé pour le projet Cerf-volant ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0034",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Ottawa. Their cryptography team started the Nimbus project in 2024. It is tracked as F8BDYQEC. The most recent evaluation score is 18 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0034_q1",
+        "question": "In what year did Brightwell Institute begin Nimbus?",
+        "answer": "2024"
+      },
+      {
+        "qid": "en_0034_q2",
+        "question": "In which city is the Nimbus team at Brightwell Institute based?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0052",
+    "language": "en",
+    "document": "Meeting notes — Maple Systems, Quebec City: The Kite effort (topic: astronomy) began in 2004. Reference Z96DPTJU. Team reported score 71/100; recall measured at 63%.",
+    "questions": [
+      {
+        "qid": "en_0052_q1",
+        "question": "In what year did Maple Systems begin Kite?",
+        "answer": "2004"
+      },
+      {
+        "qid": "en_0052_q2",
+        "question": "In which city is the Kite team at Maple Systems based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0024",
+    "language": "zh",
+    "document": "产品：星芒。机构：明朗研究院（武汉）。领域：机器人学。启动年份：2012。编号：834CZFGR。关键指标：召回率（64%）。得分：99/100。",
+    "questions": [
+      {
+        "qid": "zh_0024_q1",
+        "question": "明朗研究院 是在哪一年开始 星芒 的？",
+        "answer": "2012"
+      },
+      {
+        "qid": "zh_0024_q2",
+        "question": "星芒 在 明朗研究院 对应的城市是哪里？",
+        "answer": "武汉"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0018",
+    "language": "fr",
+    "document": "Produit : Safran. Propriétaire : Robotique Cinder (Strasbourg). Domaine : biologie. Année de début : 2015. ID : C6NW8KD6. Métrique clé : rappel (97%). Score : 28/100.",
+    "questions": [
+      {
+        "qid": "fr_0018_q1",
+        "question": "En quelle année le projet Safran chez Robotique Cinder a-t-il commencé ?",
+        "answer": "2015"
+      },
+      {
+        "qid": "fr_0018_q2",
+        "question": "Dans quelle ville se trouve l'équipe Safran chez Robotique Cinder ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0001",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Edmonton: The Helios effort (topic: linguistics) began in 2020. Reference ECQUFQG2. Team reported score 50/100; cost measured at $0.08/1k.",
+    "questions": [
+      {
+        "qid": "en_0001_q1",
+        "question": "When did the Helios project at Northlake Lab start?",
+        "answer": "2020"
+      },
+      {
+        "qid": "en_0001_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0056",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Systèmes Érable (Nice) confirme l'année de début 2009. Dossier 6S8PNTTJ. Score : 28/100. disponibilité : 95%.",
+    "questions": [
+      {
+        "qid": "fr_0056_q1",
+        "question": "En quelle année le projet Safran chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2009"
+      },
+      {
+        "qid": "fr_0056_q2",
+        "question": "Quelle ville est associée au projet Safran de Systèmes Érable ?",
+        "answer": "Nice"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0001",
+    "language": "zh",
+    "document": "2005年，枫叶系统公司在广州推出了雨云系统，研究方向为经济学。内部编号是WWRVKQ4V。最新报告显示成本=$0.10/1k，综合得分50/100。",
+    "questions": [
+      {
+        "qid": "zh_0001_q1",
+        "question": "雨云 在 枫叶系统公司 是哪一年启动的？",
+        "answer": "2005"
+      },
+      {
+        "qid": "zh_0001_q2",
+        "question": "雨云 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0006",
+    "language": "en",
+    "document": "Incident recap for Juniper: Brightwell Institute (Winnipeg) confirmed the project start year as 1998. Case SMGVNKZL. Post-incident score: 84/100. Reported throughput: 474 req/s.",
+    "questions": [
+      {
+        "qid": "en_0006_q1",
+        "question": "In what year did Brightwell Institute begin Juniper?",
+        "answer": "1998"
+      },
+      {
+        "qid": "en_0006_q2",
+        "question": "Which city is associated with Brightwell Institute's Juniper project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0063",
+    "language": "zh",
+    "document": "产品：风筝。机构：灰烬机器人团队（北京）。领域：机器人学。启动年份：2011。编号：39B25MYP。关键指标：吞吐量（597 req/s）。得分：38/100。",
+    "questions": [
+      {
+        "qid": "zh_0063_q1",
+        "question": "灰烬机器人团队 的 风筝 项目启动年份是什么？",
+        "answer": "2011"
+      },
+      {
+        "qid": "zh_0063_q2",
+        "question": "灰烬机器人团队 的 风筝 项目在哪个城市？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0021",
+    "language": "zh",
+    "document": "产品：风筝。机构：红杉数据组（杭州）。领域：地质学。启动年份：2023。编号：X6X5JVWN。关键指标：成本（$0.12/1k）。得分：76/100。",
+    "questions": [
+      {
+        "qid": "zh_0021_q1",
+        "question": "红杉数据组 是在哪一年开始 风筝 的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0021_q2",
+        "question": "红杉数据组 的 风筝 项目在哪个城市？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0060",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Winnipeg: The Helios effort (topic: geology) began in 2023. Reference MLMF2R9K. Team reported score 44/100; cost measured at $0.20/1k.",
+    "questions": [
+      {
+        "qid": "en_0060_q1",
+        "question": "When did the Helios project at Northlake Lab start?",
+        "answer": "2023"
+      },
+      {
+        "qid": "en_0060_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Winnipeg"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0065",
+    "language": "zh",
+    "document": "枫叶系统公司位于深圳。其经济学团队在2023年启动雨云项目，编号B2Y89YW2。最近一次评估得分为49/100。",
+    "questions": [
+      {
+        "qid": "zh_0065_q1",
+        "question": "枫叶系统公司 是在哪一年开始 雨云 的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0065_q2",
+        "question": "枫叶系统公司 的 雨云 项目在哪个城市？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0024",
+    "language": "en",
+    "document": "Incident recap for Kite: Brightwell Institute (Calgary) confirmed the project start year as 2000. Case XWHVV4W3. Post-incident score: 52/100. Reported accuracy: 87%.",
+    "questions": [
+      {
+        "qid": "en_0024_q1",
+        "question": "In what year did Brightwell Institute begin Kite?",
+        "answer": "2000"
+      },
+      {
+        "qid": "en_0024_q2",
+        "question": "In which city is the Kite team at Brightwell Institute based?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0010",
+    "language": "en",
+    "document": "Meeting notes — Cinder Robotics, Ottawa: The Aster effort (topic: linguistics) began in 2004. Reference J8R84NGG. Team reported score 99/100; uptime measured at 98%.",
+    "questions": [
+      {
+        "qid": "en_0010_q1",
+        "question": "What is the start year for Aster at Cinder Robotics?",
+        "answer": "2004"
+      },
+      {
+        "qid": "en_0010_q2",
+        "question": "Where is Cinder Robotics located for the Aster project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0059",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Laboratoire Northlake (Strasbourg) confirme l'année de début 2021. Dossier UCAVGXU7. Score : 97/100. rappel : 71%.",
+    "questions": [
+      {
+        "qid": "fr_0059_q1",
+        "question": "En quelle année le projet Safran chez Laboratoire Northlake a-t-il commencé ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0059_q2",
+        "question": "Dans quelle ville Laboratoire Northlake est-il situé pour le projet Safran ?",
+        "answer": "Strasbourg"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0059",
+    "language": "zh",
+    "document": "产品：雨云。机构：明朗研究院（广州）。领域：生物学。启动年份：2012。编号：7W4HYP6V。关键指标：延迟（92ms）。得分：74/100。",
+    "questions": [
+      {
+        "qid": "zh_0059_q1",
+        "question": "明朗研究院 是在哪一年开始 雨云 的？",
+        "answer": "2012"
+      },
+      {
+        "qid": "zh_0059_q2",
+        "question": "明朗研究院 的 雨云 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0013",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Nimbus : Analyse Redwood (Bordeaux) confirme l'année de début 2008. Dossier 534UH3BW. Score : 36/100. latence : 449ms.",
+    "questions": [
+      {
+        "qid": "fr_0013_q1",
+        "question": "Quelle est l'année de début de Nimbus chez Analyse Redwood ?",
+        "answer": "2008"
+      },
+      {
+        "qid": "fr_0013_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Analyse Redwood ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0005",
+    "language": "zh",
+    "document": "会议纪要—红杉数据组（北京）：风筝项目（地质学）于2021年开始，参考编号H8RP3RWU。团队报告得分63/100，吞吐量为204 req/s。",
+    "questions": [
+      {
+        "qid": "zh_0005_q1",
+        "question": "风筝 在 红杉数据组 是哪一年启动的？",
+        "answer": "2021"
+      },
+      {
+        "qid": "zh_0005_q2",
+        "question": "风筝 在 红杉数据组 对应的城市是哪里？",
+        "answer": "北京"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0060",
+    "language": "fr",
+    "document": "Produit : Hélios. Propriétaire : Systèmes Érable (Marseille). Domaine : astronomie. Année de début : 2006. ID : NHXL7SMA. Métrique clé : coût ($0.12/1k). Score : 58/100.",
+    "questions": [
+      {
+        "qid": "fr_0060_q1",
+        "question": "En quelle année le projet Hélios chez Systèmes Érable a-t-il commencé ?",
+        "answer": "2006"
+      },
+      {
+        "qid": "fr_0060_q2",
+        "question": "Quelle ville est associée au projet Hélios de Systèmes Érable ?",
+        "answer": "Marseille"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0049",
+    "language": "en",
+    "document": "In 1999, Northlake Lab in Quebec City released the Helios system for linguistics. The internal ticket is 5WSBFQBT. The benchmark reports latency = 314ms and score 88/100.",
+    "questions": [
+      {
+        "qid": "en_0049_q1",
+        "question": "In what year did Northlake Lab begin Helios?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0049_q2",
+        "question": "Where is Northlake Lab located for the Helios project?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0049",
+    "language": "zh",
+    "document": "2008年，枫叶系统公司在深圳推出了雨云系统，研究方向为经济学。内部编号是3EV5RDRF。最新报告显示吞吐量=559 req/s，综合得分70/100。",
+    "questions": [
+      {
+        "qid": "zh_0049_q1",
+        "question": "枫叶系统公司 的 雨云 项目启动年份是什么？",
+        "answer": "2008"
+      },
+      {
+        "qid": "zh_0049_q2",
+        "question": "雨云 在 枫叶系统公司 对应的城市是哪里？",
+        "answer": "深圳"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0037",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Edmonton: The Helios effort (topic: robotics) began in 2018. Reference XA49G5Z7. Team reported score 34/100; latency measured at 267ms.",
+    "questions": [
+      {
+        "qid": "en_0037_q1",
+        "question": "In what year did Northlake Lab begin Helios?",
+        "answer": "2018"
+      },
+      {
+        "qid": "en_0037_q2",
+        "question": "Which city is associated with Northlake Lab's Helios project?",
+        "answer": "Edmonton"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0011",
+    "language": "zh",
+    "document": "明朗研究院位于广州。其生物学团队在2017年启动雨云项目，编号SYT3FZ37。最近一次评估得分为87/100。",
+    "questions": [
+      {
+        "qid": "zh_0011_q1",
+        "question": "雨云 在 明朗研究院 是哪一年启动的？",
+        "answer": "2017"
+      },
+      {
+        "qid": "zh_0011_q2",
+        "question": "明朗研究院 的 雨云 团队位于哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0012",
+    "language": "zh",
+    "document": "2018年，北湖实验室在成都推出了杜松系统，研究方向为天文学。内部编号是CF3228DA。最新报告显示可用性=95%，综合得分36/100。",
+    "questions": [
+      {
+        "qid": "zh_0012_q1",
+        "question": "北湖实验室 的 杜松 项目启动年份是什么？",
+        "answer": "2018"
+      },
+      {
+        "qid": "zh_0012_q2",
+        "question": "北湖实验室 的 杜松 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0060",
+    "language": "zh",
+    "document": "2024年，北湖实验室在广州推出了杜松系统，研究方向为天文学。内部编号是CPWKFRY3。最新报告显示可用性=97%，综合得分80/100。",
+    "questions": [
+      {
+        "qid": "zh_0060_q1",
+        "question": "杜松 在 北湖实验室 是哪一年启动的？",
+        "answer": "2024"
+      },
+      {
+        "qid": "zh_0060_q2",
+        "question": "北湖实验室 的 杜松 项目在哪个城市？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0046",
+    "language": "zh",
+    "document": "2025年，明朗研究院在成都推出了藏红花系统，研究方向为天文学。内部编号是VPN3UDR9。最新报告显示可用性=95%，综合得分64/100。",
+    "questions": [
+      {
+        "qid": "zh_0046_q1",
+        "question": "明朗研究院 是在哪一年开始 藏红花 的？",
+        "answer": "2025"
+      },
+      {
+        "qid": "zh_0046_q2",
+        "question": "明朗研究院 的 藏红花 项目在哪个城市？",
+        "answer": "成都"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0047",
+    "language": "zh",
+    "document": "风筝事件复盘：灰烬机器人团队（上海）确认项目启动年份为2009，工单WJ24ZM8E。复盘后得分17/100，成本=$0.05/1k。",
+    "questions": [
+      {
+        "qid": "zh_0047_q1",
+        "question": "灰烬机器人团队 是在哪一年开始 风筝 的？",
+        "answer": "2009"
+      },
+      {
+        "qid": "zh_0047_q2",
+        "question": "灰烬机器人团队 的 风筝 团队位于哪个城市？",
+        "answer": "上海"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0008",
+    "language": "en",
+    "document": "Brightwell Institute operates out of Quebec City. Their linguistics team started the Kite project in 2006. It is tracked as 5PNV3Z66. The most recent evaluation score is 30 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0008_q1",
+        "question": "In what year did Brightwell Institute begin Kite?",
+        "answer": "2006"
+      },
+      {
+        "qid": "en_0008_q2",
+        "question": "In which city is the Kite team at Brightwell Institute based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0056",
+    "language": "zh",
+    "document": "1998年，明朗研究院在杭州推出了星芒系统，研究方向为机器人学。内部编号是XA2VGPR4。最新报告显示可用性=100%，综合得分77/100。",
+    "questions": [
+      {
+        "qid": "zh_0056_q1",
+        "question": "明朗研究院 是在哪一年开始 星芒 的？",
+        "answer": "1998"
+      },
+      {
+        "qid": "zh_0056_q2",
+        "question": "星芒 在 明朗研究院 对应的城市是哪里？",
+        "answer": "杭州"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0025",
+    "language": "fr",
+    "document": "En 2022, Laboratoire Northlake à Lyon a lancé le système Cerf-volant pour la linguistique. L'identifiant interne est LT6K5FQ6. Rapport: précision = 65% et score 59/100.",
+    "questions": [
+      {
+        "qid": "fr_0025_q1",
+        "question": "Quelle est l'année de début de Cerf-volant chez Laboratoire Northlake ?",
+        "answer": "2022"
+      },
+      {
+        "qid": "fr_0025_q2",
+        "question": "Dans quelle ville se trouve l'équipe Cerf-volant chez Laboratoire Northlake ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0045",
+    "language": "zh",
+    "document": "2001年，灰烬机器人团队在西安推出了杜松系统，研究方向为天文学。内部编号是JH2Y5WJR。最新报告显示吞吐量=98 req/s，综合得分50/100。",
+    "questions": [
+      {
+        "qid": "zh_0045_q1",
+        "question": "灰烬机器人团队 是在哪一年开始 杜松 的？",
+        "answer": "2001"
+      },
+      {
+        "qid": "zh_0045_q2",
+        "question": "杜松 在 灰烬机器人团队 对应的城市是哪里？",
+        "answer": "西安"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0015",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Nimbus : Systèmes Érable (Lyon) confirme l'année de début 2004. Dossier YYKRGKSN. Score : 37/100. coût : $0.15/1k.",
+    "questions": [
+      {
+        "qid": "fr_0015_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Nimbus ?",
+        "answer": "2004"
+      },
+      {
+        "qid": "fr_0015_q2",
+        "question": "Quelle ville est associée au projet Nimbus de Systèmes Érable ?",
+        "answer": "Lyon"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0018",
+    "language": "zh",
+    "document": "产品：雨云。机构：北湖实验室（武汉）。领域：地质学。启动年份：2015。编号：4GBFYFW2。关键指标：召回率（95%）。得分：16/100。",
+    "questions": [
+      {
+        "qid": "zh_0018_q1",
+        "question": "北湖实验室 的 雨云 项目启动年份是什么？",
+        "answer": "2015"
+      },
+      {
+        "qid": "zh_0018_q2",
+        "question": "北湖实验室 的 雨云 项目在哪个城市？",
+        "answer": "武汉"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0061",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Quebec City: The Aster effort (topic: economics) began in 2023. Reference 7ULE6YV5. Team reported score 47/100; accuracy measured at 60%.",
+    "questions": [
+      {
+        "qid": "en_0061_q1",
+        "question": "What is the start year for Aster at Northlake Lab?",
+        "answer": "2023"
+      },
+      {
+        "qid": "en_0061_q2",
+        "question": "In which city is the Aster team at Northlake Lab based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0046",
+    "language": "en",
+    "document": "Incident recap for Aster: Maple Systems (Vancouver) confirmed the project start year as 2006. Case FLRMELA4. Post-incident score: 72/100. Reported throughput: 226 req/s.",
+    "questions": [
+      {
+        "qid": "en_0046_q1",
+        "question": "What is the start year for Aster at Maple Systems?",
+        "answer": "2006"
+      },
+      {
+        "qid": "en_0046_q2",
+        "question": "Where is Maple Systems located for the Aster project?",
+        "answer": "Vancouver"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0045",
+    "language": "en",
+    "document": "Incident recap for Aster: Northlake Lab (Ottawa) confirmed the project start year as 2001. Case 4Q266V5V. Post-incident score: 87/100. Reported latency: 135ms.",
+    "questions": [
+      {
+        "qid": "en_0045_q1",
+        "question": "In what year did Northlake Lab begin Aster?",
+        "answer": "2001"
+      },
+      {
+        "qid": "en_0045_q2",
+        "question": "Which city is associated with Northlake Lab's Aster project?",
+        "answer": "Ottawa"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0024",
+    "language": "fr",
+    "document": "Récapitulatif d'incident pour Safran : Systèmes Érable (Bordeaux) confirme l'année de début 2022. Dossier 24LNJSD8. Score : 62/100. rappel : 78%.",
+    "questions": [
+      {
+        "qid": "fr_0024_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Safran ?",
+        "answer": "2022"
+      },
+      {
+        "qid": "fr_0024_q2",
+        "question": "Quelle ville est associée au projet Safran de Systèmes Érable ?",
+        "answer": "Bordeaux"
+      }
+    ]
+  },
+  {
+    "doc_id": "fr_0033",
+    "language": "fr",
+    "document": "Notes de réunion — Systèmes Érable, Nantes : le projet Cerf-volant (thème : cryptographie) a commencé en 2021. Référence 62XM99ZT. Score 25/100 ; rappel = 85%.",
+    "questions": [
+      {
+        "qid": "fr_0033_q1",
+        "question": "En quelle année Systèmes Érable a-t-il démarré Cerf-volant ?",
+        "answer": "2021"
+      },
+      {
+        "qid": "fr_0033_q2",
+        "question": "Dans quelle ville Systèmes Érable est-il situé pour le projet Cerf-volant ?",
+        "answer": "Nantes"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0014",
+    "language": "zh",
+    "document": "明朗研究院位于广州。其天文学团队在2004年启动藏红花项目，编号K3EVLR2X。最近一次评估得分为64/100。",
+    "questions": [
+      {
+        "qid": "zh_0014_q1",
+        "question": "藏红花 在 明朗研究院 是哪一年启动的？",
+        "answer": "2004"
+      },
+      {
+        "qid": "zh_0014_q2",
+        "question": "藏红花 在 明朗研究院 对应的城市是哪里？",
+        "answer": "广州"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0057",
+    "language": "en",
+    "document": "Meeting notes — Northlake Lab, Quebec City: The Raven effort (topic: cryptography) began in 2012. Reference AK4KE8SX. Team reported score 94/100; latency measured at 277ms.",
+    "questions": [
+      {
+        "qid": "en_0057_q1",
+        "question": "When did the Raven project at Northlake Lab start?",
+        "answer": "2012"
+      },
+      {
+        "qid": "en_0057_q2",
+        "question": "In which city is the Raven team at Northlake Lab based?",
+        "answer": "Quebec City"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0062",
+    "language": "zh",
+    "document": "2016年，明朗研究院在武汉推出了藏红花系统，研究方向为天文学。内部编号是SEBEN6JF。最新报告显示准确率=65%，综合得分57/100。",
+    "questions": [
+      {
+        "qid": "zh_0062_q1",
+        "question": "明朗研究院 是在哪一年开始 藏红花 的？",
+        "answer": "2016"
+      },
+      {
+        "qid": "zh_0062_q2",
+        "question": "明朗研究院 的 藏红花 项目在哪个城市？",
+        "answer": "武汉"
+      }
+    ]
+  },
+  {
+    "doc_id": "en_0015",
+    "language": "en",
+    "document": "Cinder Robotics operates out of Calgary. Their biology team started the Juniper project in 1999. It is tracked as F4WSPWRS. The most recent evaluation score is 65 out of 100.",
+    "questions": [
+      {
+        "qid": "en_0015_q1",
+        "question": "When did the Juniper project at Cinder Robotics start?",
+        "answer": "1999"
+      },
+      {
+        "qid": "en_0015_q2",
+        "question": "Which city is associated with Cinder Robotics's Juniper project?",
+        "answer": "Calgary"
+      }
+    ]
+  },
+  {
+    "doc_id": "zh_0055",
+    "language": "zh",
+    "document": "会议纪要—明朗研究院（深圳）：风筝项目（经济学）于2023年开始，参考编号VR7Z9NRK。团队报告得分15/100，准确率为96%。",
+    "questions": [
+      {
+        "qid": "zh_0055_q1",
+        "question": "明朗研究院 是在哪一年开始 风筝 的？",
+        "answer": "2023"
+      },
+      {
+        "qid": "zh_0055_q2",
+        "question": "明朗研究院 的 风筝 团队位于哪个城市？",
+        "answer": "深圳"
+      }
+    ]
+  }
+]

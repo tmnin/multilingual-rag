@@ -1,9 +1,9 @@
 import random
 
-def inject_spelling_noise(text, prob=0.1):
+def apply_spelling_noise(text, p):
     chars = list(text)
     for i in range(len(chars)):
-        if random.random() < prob:
+        if random.random() < p:
             op = random.choice(["delete", "swap"])
             if op == "delete":
                 chars[i] = ""

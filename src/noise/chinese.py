@@ -1,6 +1,6 @@
 import random
 
-def inject_chinese_noise(text, prob=0.1):
+def apply_chinese_noise(text, p):
     out = []
     for ch in text:
         # Skip punctuation / spaces
@@ -8,7 +8,7 @@ def inject_chinese_noise(text, prob=0.1):
             out.append(ch)
             continue
 
-        if random.random() < prob:
+        if random.random() < p:
             # drop or replace character
             if random.random() < 0.5:
                 continue

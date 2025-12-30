@@ -9,10 +9,10 @@ SUBS = {
     "l": ["1"]
 }
 
-def inject_obfuscation(text, prob=0.1):
+def apply_obfuscation_noise(text, p):
     out = []
     for ch in text:
-        if ch.lower() in SUBS and random.random() < prob:
+        if ch.lower() in SUBS and random.random() < p:
             out.append(random.choice(SUBS[ch.lower()]))
         else:
             out.append(ch)
