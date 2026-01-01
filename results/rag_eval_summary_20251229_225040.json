@@ -1,0 +1,41 @@
+[
+  {
+    "run_tag": "20251229_225040",
+    "data_path": "data/qa_dataset_200.json",
+    "index_docs": 200,
+    "eval_questions": 60,
+    "top_k": 5,
+    "model": "command-r7b-12-2024",
+    "noise": 0.0,
+    "hit@5": 0.8333333333333334,
+    "rag_acc": 0.5333333333333333,
+    "base_acc": 0.0,
+    "faithfulness": 0.9
+  },
+  {
+    "run_tag": "20251229_225040",
+    "data_path": "data/qa_dataset_200.json",
+    "index_docs": 200,
+    "eval_questions": 60,
+    "top_k": 5,
+    "model": "command-r7b-12-2024",
+    "noise": 0.2,
+    "hit@5": 0.7833333333333333,
+    "rag_acc": 0.38333333333333336,
+    "base_acc": 0.03333333333333333,
+    "faithfulness": 0.9
+  },
+  {
+    "run_tag": "20251229_225040",
+    "data_path": "data/qa_dataset_200.json",
+    "index_docs": 200,
+    "eval_questions": 60,
+    "top_k": 5,
+    "model": "command-r7b-12-2024",
+    "noise": 0.4,
+    "hit@5": 0.5666666666666667,
+    "rag_acc": 0.23333333333333334,
+    "base_acc": 0.0,
+    "faithfulness": 0.65
+  }
+]

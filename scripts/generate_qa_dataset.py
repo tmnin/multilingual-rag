@@ -36,22 +36,12 @@ def rand_id(rng: random.Random) -> str:
     alphabet = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789"
     return "".join(rng.choice(alphabet) for _ in range(8))
 
-
-# -----------------------
-# Metric/value cleanup
-# -----------------------
-
-# Canonical metric families for value formatting:
-# - latency -> ms
-# - throughput -> req/s
-# - accuracy -> %
-# - uptime -> %
 EN_METRICS = {
     "latency": "latency",
     "throughput": "throughput",
     "accuracy": "accuracy",
-    "recall": "accuracy",   # treat as percentage for formatting
-    "cost": "cost",         # $/1k requests style
+    "recall": "accuracy",  
+    "cost": "cost",         
     "uptime": "uptime",
 }
 
@@ -138,7 +128,7 @@ def zh_templates(f: Dict) -> List[str]:
 
 
 # -----------------------
-# Questions (vary style; include product to disambiguate across org)
+# Questions 
 # -----------------------
 
 def en_questions(doc_id: str, f: Dict, rng: random.Random) -> List[Dict]:
