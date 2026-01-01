@@ -1,31 +1,25 @@
-# Multilingual RAG Robustness Under Noisy Queries (Cohere + FAISS)
+# Multilingual RAG Robustness Benchmark (Cohere + FAISS)
 
-This project evaluates how a Retrieval-Augmented Generation (RAG) pipeline behaves when user queries are corrupted by multilingual noise (typos / character corruption), compared to a no-retrieval baseline.
+This project benchmarks how Retrieval-Augmented Generation (RAG) holds up when user queries are **noisy and multilingual**. It evaluates retrieval quality and answer quality across **English / French / Chinese** under controlled perturbations (spelling noise, obfuscation, and code-switching).
 
-The core question: **does retrieval help maintain answer quality and grounding as query noise increases?**
-
----
+The goal is to build a small but realistic evaluation harness that demonstrates:
+- how retrieval degrades under noise (Hit@K)
+- how RAG answer accuracy tracks retrieval quality
+- how often answers remain grounded in retrieved context (faithfulness)
 
 ## What this project includes
 
-- **Synthetic multilingual QA dataset** (English / French / Chinese):
-  - 200 documents total
-  - 2 questions per document (400 QA pairs)
-  - “Hard negatives”: groups share (org, product, topic) so retrieval is non-trivial
-- **Retriever**: Cohere embeddings + FAISS index
-- **Generator**: Cohere Chat model
-- Noise suite:
-  - `spelling` (character-level typos)
-  - `obfuscation` (random masking/deletion variants)
-  - `chinese` (hanzi perturbations)
-  - `codeswitch` (EN<->FR function-word switching and mild English token injection for ZH)
-- **Evaluation**:
-  - Retrieval: **Hit@5** (whether the correct document is retrieved in the top-5)
-  - RAG accuracy: exact/substring match against gold answers
-  - Baseline accuracy: same model and same noisy query but without context
-  - Faithfulness: whether the gold answer appears in retrieved context (grounding proxy)
-
----
+- **Dataset generator**: produces a 200-document multilingual corpus with hard negatives (documents sharing org/product/topic but differing in key facts).
+- **Noise pipeline**:
+  - spelling corruption
+  - lightweight obfuscation
+  - **code-switching** (EN↔FR function-word swapping; occasional English injection for ZH)
+- **Retrieval**: Cohere embeddings + FAISS index (L2-normalized vectors)
+- **RAG**: Cohere Chat with a strict prompt (“use ONLY the provided context”)
+- **Metrics**:
+  - Retrieval Hit@K
+  - Answer accuracy (string match / normalized)
+  - Faithfulness (gold answer present in retrieved contexts)
 
 ## Key results (n=60 questions, stratified; corpus=200 docs)
 
@@ -35,17 +29,32 @@ The core question: **does retrieval help maintain answer quality and grounding a
 | 0.20  | 0.733 | 0.400   | 0.000        | 0.800        |
 | 0.40  | 0.567 | 0.350   | 0.000        | 0.650        |
 
-**Interpretation**
-- As noise increases, retrieval degrades (Hit@5 drops)
-- RAG answer accuracy and faithfulness degrade gradually with retrieval
-- The no-RAG baseline collapses under multilingual noise which shows retrieval is necessary for ...
+As noise increases, retrieval degrades and RAG accuracy declines more gradually than the no-RAG baseline.
+*(Exact numbers vary slightly depending on the evaluation subset and random seed.)*
 
-A plot of the noise sweep is available at: `results/rag_noise_sweep_plot.png`.
+## Notes
+- Trial keys are rate-limited. The evaluation code throttles chat calls to avoid 429 errors.
+- Faithfulness here is measured as a controlled “gold-in-context” check (appropriate for this synthetic corpus).
 
----
+## Future work
+- Add stronger multilingual noise (script conversion, transliteration, OCR-like errors)
+- Evaluate alternate retrievers / rerankers
+- Replace exact-match answer accuracy with a semantic evaluator (LLM judge or similarity model)
 
 ## Setup
 
+### 1) Install dependencies
+
 ```bash
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+```
+
+### 2) Set Cohere API key
+```bash
 export COHERE_API_KEY="..."
+```
+
+
+
