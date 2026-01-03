@@ -1,6 +1,6 @@
 # Multilingual RAG Robustness Benchmark (Cohere + FAISS)
 
-This project benchmarks how Retrieval-Augmented Generation (RAG) holds up when user queries are **noisy and multilingual**. It evaluates retrieval quality and answer quality across **English / French / Chinese** under controlled perturbations (spelling noise, obfuscation, and code-switching).
+This project benchmarks how Retrieval-Augmented Generation (RAG) holds up when user queries are noisy and multilingual. It evaluates retrieval quality and answer quality across English, French, and Chinese under controlled perturbations (spelling noise, obfuscation, and code-switching).
 
 The goal is to build a small but realistic evaluation harness that demonstrates:
 - how retrieval degrades under noise (Hit@K)
